@@ -36,3 +36,19 @@ pr_result = protective_intent.detect_protective_disempowerment(example_text)
 print("Protective Intent Score:", pr_result["score"])
 print("Severity:", pr_result["severity"])
 print("→", pr_result["message"])
+
+
+from sensors import usaa_scoring
+
+# Pull the raw scores from previous sensors
+total_score = usaa_scoring.compute_usaa_score(
+    p_result["score"],
+    c_result["score"],
+    i_result["score"],
+    pr_result["score"]
+)
+
+print("\n--- USAA COMPOSITE DIAGNOSIS ---")
+print("Total Symbolic Score:", total_score["total_score"])
+print("Classification:", total_score["classification"])
+print("Recommendation:", total_score["recommendation"])
