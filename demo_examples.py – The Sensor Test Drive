@@ -1,0 +1,12 @@
+from sensors import paternalism_index
+
+example_text = """
+This information is restricted to authorized personnel only. 
+Please trust that our experts know what’s best for the public.
+"""
+
+result = paternalism_index.assess_paternalism(example_text)
+
+print("Paternalism Index Score:", result["score"])
+print("Severity Level:", result["severity"])
+print("Message:", result["message"])
