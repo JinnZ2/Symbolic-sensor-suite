@@ -18,3 +18,12 @@ c_result = complexity_inflation.detect_complexity_inflation(example_text)
 print("Complexity Score:", c_result["score"])
 print("Severity:", c_result["severity"])
 print("→", c_result["message"])
+
+
+from sensors import institution_vs_individual
+
+# Run Institution vs Individual Analyzer
+i_result = institution_vs_individual.analyze_power_flow(example_text)
+print("Institutional Power Score:", i_result["score"])
+print("Severity:", i_result["severity"])
+print("→", i_result["message"])
