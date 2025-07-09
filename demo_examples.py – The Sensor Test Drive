@@ -27,3 +27,12 @@ i_result = institution_vs_individual.analyze_power_flow(example_text)
 print("Institutional Power Score:", i_result["score"])
 print("Severity:", i_result["severity"])
 print("→", i_result["message"])
+
+
+from sensors import protective_intent
+
+# Run Protective Intent Clarity Detector
+pr_result = protective_intent.detect_protective_disempowerment(example_text)
+print("Protective Intent Score:", pr_result["score"])
+print("Severity:", pr_result["severity"])
+print("→", pr_result["message"])
