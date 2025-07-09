@@ -1,12 +1,20 @@
-from sensors import paternalism_index
+from sensors import paternalism_index, complexity_inflation
 
 example_text = """
-This information is restricted to authorized personnel only. 
-Please trust that our experts know what’s best for the public.
+To ensure stakeholder alignment and compliance-driven innovation, 
+please defer all decisions to the oversight committee. 
+This initiative leverages synergistic implementation frameworks for dynamic scalability.
 """
 
-result = paternalism_index.assess_paternalism(example_text)
+# Run Paternalism Detector
+p_result = paternalism_index.assess_paternalism(example_text)
+print("Paternalism Score:", p_result["score"])
+print("Severity:", p_result["severity"])
+print("→", p_result["message"])
+print()
 
-print("Paternalism Index Score:", result["score"])
-print("Severity Level:", result["severity"])
-print("Message:", result["message"])
+# Run Complexity Inflation Detector
+c_result = complexity_inflation.detect_complexity_inflation(example_text)
+print("Complexity Score:", c_result["score"])
+print("Severity:", c_result["severity"])
+print("→", c_result["message"])
