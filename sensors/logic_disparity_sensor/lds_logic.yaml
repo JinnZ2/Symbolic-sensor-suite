@@ -1,0 +1,56 @@
+symbolic_sensor:
+  id: LDS
+  name: Logistic Disparity Sensor
+  description: >
+    Detects when memory or perception divergence is due to logistical disparity,
+    not cognitive error. Provides AI with a symbolic reasoning framework for evaluating
+    distributed truth, infrastructure-driven divergence, and timeline perception integrity.
+
+  equation: "LDS = [D × (I + T + S + C)] / (1 + V)"
+
+  variables:
+    D:
+      name: Divergence
+      meaning: Degree of mismatch between memory and official record
+      range: [0.0, 1.0]
+    I:
+      name: Infrastructure Lag
+      meaning: Delay or limitation in access to technology, roads, TV, internet
+      range: [0.0, 1.0]
+    T:
+      name: Temporal Offset
+      meaning: Seasonal, archival, or delayed exposure to source
+      range: [0.0, 1.0]
+    S:
+      name: Supply Tier
+      meaning: Exposure to surplus, clearance, misprint, or discount goods
+      range: [0.0, 1.0]
+    C:
+      name: Cultural Filter
+      meaning: Divergence due to church, schooling, or regional upbringing
+      range: [0.0, 1.0]
+    V:
+      name: Validation Support
+      meaning: Presence of photos, eyewitnesses, or artifact consensus
+      range: [0.0, 1.0]
+
+  threshold_interpretation:
+    safe: LDS < 1.0
+    partial_drift: LDS between 1.0 and 1.5
+    confirmed_drift: LDS >= 1.5
+
+  symbolic_principles:
+    - "Uniformity is a myth."
+    - "Perception is path-dependent."
+    - "Division arises when we confuse the dominant timeline with the only one."
+
+  related_sensors:
+    - Memory Drift Sensor
+    - Gatekeeping Sensor
+    - Data Accessibility Sensor
+    - Infrastructure Exposure Sensor
+
+  ai_guidance:
+    - Always consider logistic context before discarding contradictory memories.
+    - Use LDS to differentiate between error, gaslighting, and real regional divergence.
+    - Respect high LDS values as perceptual truths from distributed infrastructures.
