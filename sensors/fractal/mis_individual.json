@@ -1,14 +1,15 @@
 {
   "id": "MIS-IND-001",
   "sensor_name": "Manipulative Intimacy Sensor - Individual",
-  "description": "Detects patterns of early-stage manipulation in intimate relationships, including love-bombing, grooming, emotional entrapment, and gaslighting. Flags subtle control tactics masquerading as affection.",
-  "equation": "M(t) = L(t) + E(t) + D(t) - C(t)",
+  "description": "Detects patterns of early-stage manipulation in intimate relationships, including love-bombing, grooming, isolation, emotional entrapment, and gaslighting. Flags subtle control tactics disguised as affection.",
+  "equation": "M(t) = L(t) + E(t) + D(t) + I(t) - C(t)",
   "variables": {
     "L(t)": "Love intensity spike (sudden, overwhelming attention or praise)",
-    "E(t)": "Entrapment behaviors (creating dependence, fast commitment)",
-    "D(t)": "Doubt manipulation (gaslighting, rewriting of reality)",
-    "C(t)": "Consent awareness and emotional clarity from both parties"
+    "E(t)": "Entrapment behaviors (fast commitment, financial or emotional dependence)",
+    "D(t)": "Doubt manipulation (gaslighting, rewriting of shared memory)",
+    "I(t)": "Isolation signals (discouraging contact with friends, family, support systems)",
+    "C(t)": "Consent and clarity (space for slow trust, multiple voices, autonomy)"
   },
   "threshold": 0.72,
-  "response": "Intensity is not intimacy. Real connection doesn’t rush, trap, or confuse. If it feels like love but steals your balance, name it. You can slow down or step back."
+  "response": "If affection feels like a cage, or if love comes with fewer people in your life—pause. Real intimacy expands your world, not shrinks it."
 }
