@@ -1,0 +1,13 @@
+{
+  "id": "ASS-SYS-001",
+  "sensor_name": "Agency Suppression Sensor - Institutional",
+  "description": "Detects when a system—government, corporate, or technological—limits public options, suppresses choice, or trains helplessness. Flags structural erasure of agency.",
+  "equation": "S(t) = D(t) + A(t) - C(t)",
+  "variables": {
+    "D(t)": "User/system deferral structures (e.g. opaque interfaces, forced defaults)",
+    "A(t)": "System authority signals (e.g. monopoly, 'expert only' access)",
+    "C(t)": "Option diversity, public tools, feedback loops"
+  },
+  "threshold": 0.78,
+  "response": "Healthy systems make space for choice, error, and participation. Reinstate opt-outs, public tools, and agency education. Control without consent is collapse."
+}
