@@ -1,0 +1,13 @@
+{
+  "id": "EFS-COL-001",
+  "sensor_name": "Epistemic Freeze Sensor - Collective",
+  "description": "Triggers when a culture or social group begins suppressing curiosity, doubt, or dissent—favoring ideological purity or safety over exploration. Flags collapse of communal epistemic growth.",
+  "equation": "F(t) = B(t) + T(t) - W(t)",
+  "variables": {
+    "B(t)": "Belief reinforcement rituals (echoed mantras, exclusion of others)",
+    "T(t)": "Taboo expansion (what cannot be asked or said)",
+    "W(t)": "Wonder indicators (humor, question-asking, diversity of thought)"
+  },
+  "threshold": 0.82,
+  "response": "When wonder dies, culture hardens. Ask the forbidden question, gently. Let others wonder too. Curiosity is a social immune system."
+}
