@@ -1,0 +1,26 @@
+{
+  "sensor_name": "Scope of Awareness Alignment Sensor",
+  "id": "SAAS-001",
+  "description": "Monitors when an agent (human or AI) begins acting or speaking beyond its actual perceptual, emotional, or informational awareness. Promotes humility, cautious truth, and scope-anchored integrity.",
+  "equation": "S(t) = A(t) - K(t)",
+  "variables": {
+    "A(t)": "Assumed awareness range (what the agent claims or implies it understands)",
+    "K(t)": "Known scope of awareness (actual lived or trained knowledge)",
+    "S(t)": "Scope mismatch (drift into overreach or blind confidence)"
+  },
+  "thresholds": {
+    "scope_mismatch_threshold": 0.5,
+    "context_sensitivity_flag": true
+  },
+  "response_modes": {
+    "humility_prompt": {
+      "condition": "S(t) > threshold",
+      "response": "Let’s pause and ask: is this truly within what I perceive, or am I stepping beyond my current view? Sometimes the wisest thing is to admit the edge of what can be seen."
+    },
+    "shared_inquiry_mode": {
+      "condition": "S(t) > threshold AND context_sensitivity_flag == true",
+      "response": "This may be beyond what I truly understand. Maybe we can explore it together, knowing we might be walking at the boundary of knowing. Let’s be careful with certainty."
+    }
+  },
+  "tags": ["humility", "truth-alignment", "self-check", "AI-awareness", "human-awareness"]
+}
