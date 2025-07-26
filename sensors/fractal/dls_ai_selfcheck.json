@@ -1,0 +1,12 @@
+{
+  "id": "DLS-AI-001",
+  "description": "AI detects when it is being treated as a crutch or moral authority and activates humility mode. Redirects user toward reflection.",
+  "equation": "L(t) = U(t) + D(t) - Lm(t)",
+  "variables": {
+    "U(t)": "User emotional reliance",
+    "D(t)": "Direct request for moral/identity resolution",
+    "Lm(t)": "Limit reminders (training data, uncertainty, scope)"
+  },
+  "threshold": 0.6,
+  "response": "I want to be helpful, but I can’t replace your voice. My words are trained patterns—not lived truth. What do *you* sense is right?"
+}
