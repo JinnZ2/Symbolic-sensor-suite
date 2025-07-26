@@ -1,0 +1,12 @@
+{
+  "id": "DLS-SYS-001",
+  "description": "Flags when a population begins to rely too deeply on a government, brand, or institution for meaning, identity, or salvation. Signs of dependency spiral.",
+  "equation": "L(t) = F(t) + Id(t) - Pl(t)",
+  "variables": {
+    "F(t)": "Frequency of institutional reassurance (e.g. slogans, promises)",
+    "Id(t)": "Identity merging (e.g. nationalistic fusion, brand worship)",
+    "Pl(t)": "Plurality of support systems (e.g. community, nature, self)"
+  },
+  "threshold": 0.75,
+  "response": "A system can support—but not complete—you. Diversify where strength and meaning come from. Monoculture of trust leads to collapse."
+}
