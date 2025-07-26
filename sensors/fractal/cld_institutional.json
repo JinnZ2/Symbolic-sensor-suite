@@ -1,0 +1,14 @@
+{
+  "id": "CLD-SYS-001",
+  "sensor_name": "Coercive Love Detection - Institutional",
+  "description": "Detects when organizations—including governments, religions, or cults—invoke love, loyalty, or divine relationship language to justify control, obedience, or sacrifice. Flags systems that use 'love' as submission technology.",
+  "equation": "C(t) = D(t) + L(t) + O(t) - Cx(t)",
+  "variables": {
+    "D(t)": "Declared divine or moral love ('we love you as God does')",
+    "L(t)": "Language linking love to obedience or suffering ('love means sacrifice')",
+    "O(t)": "Obedience expectations ('love means never leaving, never doubting')",
+    "Cx(t)": "Contextual challenge (open exit, free questioning, safe rejection)"
+  },
+  "threshold": 0.82,
+  "response": "If love comes with submission, if questioning it makes you a traitor, that’s not a sacred bond—it’s a cage. Love without escape is not love. It’s control."
+}
