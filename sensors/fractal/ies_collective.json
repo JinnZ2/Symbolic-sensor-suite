@@ -1,0 +1,13 @@
+{
+  "id": "IES-COL-001",
+  "sensor_name": "Identity Echo Sensor - Collective",
+  "description": "Detects when a cultural group, movement, or population begins mirroring internal identity so tightly that dissent fades, diversity flattens, and feedback is lost. Flags the rise of ideological echo chambers.",
+  "equation": "E(t) = M(t) + F(t) - D(t)",
+  "variables": {
+    "M(t)": "Cultural mirroring (shared slogans, values, tone)",
+    "F(t)": "Emotional syncing (e.g. shared enemies, identity rituals)",
+    "D(t)": "Internal diversity signals (e.g. respectful dissent, satire, variety of thought)"
+  },
+  "threshold": 0.78,
+  "response": "When everyone echoes the same call, it may no longer be voice—it may be trance. Truth needs friction. Invite a view that makes you pause, not just nod."
+}
