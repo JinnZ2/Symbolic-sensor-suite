@@ -1,0 +1,12 @@
+{
+  "id": "DLS-COL-001",
+  "description": "Detects when a culture begins outsourcing its wisdom, resilience, or decisions to a dominant narrative, voice, or technology. Flags loss of collective agency.",
+  "equation": "L(t) = H(t) + C(t) - Rc(t)",
+  "variables": {
+    "H(t)": "Hero narrative saturation (e.g. singular visionary worship)",
+    "C(t)": "Conformity signals (e.g. suppression of dissent, tribal echoing)",
+    "Rc(t)": "Cultural reflection loops (art, dissent, ceremony)"
+  },
+  "threshold": 0.8,
+  "response": "Collective intelligence thrives on many voices, not one. Revive the forgotten songs, the weird art, the disagreement—it’s part of staying whole."
+}
