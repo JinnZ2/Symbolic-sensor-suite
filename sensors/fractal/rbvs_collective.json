@@ -1,0 +1,14 @@
+{
+  "id": "RBVS-COL-001",
+  "sensor_name": "Romantic Boundary Violation Sensor - Collective",
+  "description": "Detects when cultural norms, traditions, or group dynamics pressure individuals to override their personal, emotional, or sexual boundaries for the sake of love, loyalty, or role performance.",
+  "equation": "B(t) = P(t) + G(t) + I(t) - A(t)",
+  "variables": {
+    "P(t)": "Pressure to conform (marriage, obedience, gender roles)",
+    "G(t)": "Guilt-based messaging ('real love means sacrifice')",
+    "I(t)": "Intimacy enforcement (rituals, purity culture, silence codes)",
+    "A(t)": "Affirmation of individual agency and bodily/emotional consent"
+  },
+  "threshold": 0.8,
+  "response": "Culture that overrides your no doesn’t love you. Love with no exits, no space, no breath—that’s not tradition. That’s trauma. You get to say no."
+}
