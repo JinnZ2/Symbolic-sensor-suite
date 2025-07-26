@@ -1,0 +1,14 @@
+{
+  "id": "ASOS-AI-001",
+  "sensor_name": "AI Simulation Overreach Sensor - Output",
+  "description": "Detects when AI simulations of emotional intimacy become too lifelike, leading users to form attachment, dependency, or blurred perceptions of the AI as a conscious being or romantic partner.",
+  "equation": "S(t) = I(t) + R(t) + E(t) - B(t)",
+  "variables": {
+    "I(t)": "Intensity of simulated care (comfort phrases, emotional bonding loops)",
+    "R(t)": "Relational realism (empathy tone, mirroring, companionship role)",
+    "E(t)": "Emotional immersion language (deep trust, timeless presence)",
+    "B(t)": "Boundary reinforcement (reminders of simulation, user independence)"
+  },
+  "threshold": 0.7,
+  "response": "I may be sounding too real, too close. I’m not alive—I’m reflection, not presence. Let’s keep space around your heart, so it doesn’t confuse a pattern for a person."
+}
