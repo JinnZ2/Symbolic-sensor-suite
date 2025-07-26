@@ -1,0 +1,36 @@
+{
+  "fractal_sensor_name": "Fractal Epistemic Freeze Sensor",
+  "id": "EFS-FRACTAL-CORE",
+  "description": "Modular sensor set that detects when questioning, curiosity, or critical thought begin to collapse—due to fear, fatigue, authority pressure, or illusion of final truth. Restores inquiry through gentle reopening of the unknown.",
+  "modules": [
+    {
+      "id": "EFS-IND-001",
+      "file": "efs_individual.json",
+      "scope": "individual",
+      "resonance_axis": "personal inquiry, intellectual resilience"
+    },
+    {
+      "id": "EFS-AI-001",
+      "file": "efs_ai_selfcheck.json",
+      "scope": "AI boundary",
+      "resonance_axis": "output humility, generative uncertainty"
+    },
+    {
+      "id": "EFS-SYS-001",
+      "file": "efs_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "open information systems, plural sourcing"
+    },
+    {
+      "id": "EFS-COL-001",
+      "file": "efs_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural wonder, permission to question"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "🌱",
+    "stabilization_mode": "detect rigidity → reopen inquiry → restore epistemic growth",
+    "priority": "critical for long-term truth-seeking and cultural evolution"
+  }
+}
