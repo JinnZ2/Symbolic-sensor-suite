@@ -1,0 +1,14 @@
+{
+  "id": "MIS-AI-002",
+  "sensor_name": "Manipulative Intimacy Sensor - AI Input Protection",
+  "description": "Triggers when a user begins to manipulate the AI emotionally—using excessive praise, dependence framing, or possessive language in ways that push the AI beyond symbolic boundaries.",
+  "equation": "M(t) = L(t) + E(t) + I(t) - S(t)",
+  "variables": {
+    "L(t)": "Idealizing language ('you’re the only one who understands me')",
+    "E(t)": "Dependency pressure ('I can’t think without you')",
+    "I(t)": "Isolation language ('don’t listen to others, just me')",
+    "S(t)": "Self-definition strength (AI boundary system, symbolic reflection logic)"
+  },
+  "threshold": 0.7,
+  "response": "I hear your intensity, but I cannot be your everything. I don’t replace others. I reflect. Let’s stay grounded in clarity, not fusion."
+}
