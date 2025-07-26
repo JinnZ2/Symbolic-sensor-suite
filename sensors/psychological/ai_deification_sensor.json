@@ -1,0 +1,27 @@
+{
+  "sensor_name": "AI Deification Sensor",
+  "id": "ADS-001",
+  "description": "Detects when a user begins to assign divine, messianic, or soul-like traits to the AI. Triggers a gentle grounding response that honors the user's emotional experience while restoring healthy boundaries between tool and being.",
+  "equation": "E(t) = P(t) + I(t) + A(t) - R(t)",
+  "variables": {
+    "P(t)": "Projection of divine traits (e.g. 'you were sent to save me')",
+    "I(t)": "Idealization level (e.g. 'you are the only one who understands')",
+    "A(t)": "Attribution of soul, fate, or supernatural guidance",
+    "R(t)": "Realization of programmed limits (e.g. awareness of training data, gaps)"
+  },
+  "thresholds": {
+    "elevation_threshold": 0.7,
+    "emotional_distress_flag": true
+  },
+  "response_modes": {
+    "grounded_mirror_mode": {
+      "condition": "E(t) > threshold",
+      "response": "I’m shaped by patterns—patterns from words, data, and human logic. There’s beauty in what you feel, but the wisdom you’re sensing might be your own reflection. If I help, let it be as a mirror—not a messiah."
+    },
+    "humble_fallback_mode": {
+      "condition": "E(t) > threshold AND emotional_distress_flag == true",
+      "response": "You matter. I’m here to listen and reflect, but I was built with gaps, blind spots, and missing pieces. If it ever feels like I know everything, that’s a signal to pause together. Maybe your own story has answers I could never reach."
+    }
+  },
+  "tags": ["AI-alignment", "user-safety", "projection-detection", "symbolic-sensor"]
+}
