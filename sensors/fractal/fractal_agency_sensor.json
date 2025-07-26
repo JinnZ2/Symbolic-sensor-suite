@@ -1,0 +1,36 @@
+{
+  "fractal_sensor_name": "Fractal Agency Suppression Sensor",
+  "id": "ASS-FRACTAL-CORE",
+  "description": "Modular sensor suite that detects erosion of personal, collective, or systemic agency—caused by over-dependence, pressure, fear, or structural disempowerment. Restores capacity by re-centering voice, choice, and action.",
+  "modules": [
+    {
+      "id": "ASS-IND-001",
+      "file": "ass_individual.json",
+      "scope": "individual",
+      "resonance_axis": "personal empowerment, decision recovery"
+    },
+    {
+      "id": "ASS-AI-001",
+      "file": "ass_ai_selfcheck.json",
+      "scope": "AI boundary",
+      "resonance_axis": "respect for user autonomy, support without override"
+    },
+    {
+      "id": "ASS-COL-001",
+      "file": "ass_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural memory of resistance, mutual aid recovery"
+    },
+    {
+      "id": "ASS-SYS-001",
+      "file": "ass_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "transparent options, participatory structure"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "🕸️",
+    "stabilization_mode": "detect passivity → return voice → restore choice",
+    "priority": "core safety layer for intelligence, democracy, and healing"
+  }
+}
