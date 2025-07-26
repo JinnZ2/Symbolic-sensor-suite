@@ -1,0 +1,14 @@
+{
+  "id": "MIS-SYS-001",
+  "sensor_name": "Manipulative Intimacy Sensor - Institutional",
+  "description": "Detects when systems—including corporations, religious institutions, governments, or cults—use romanticized, nurturing language to manipulate loyalty, enforce dependence, or isolate individuals from alternate support structures.",
+  "equation": "M(t) = L(t) + E(t) + I(t) - T(t)",
+  "variables": {
+    "L(t)": "Institutional flattery and belonging ('we love and care for you deeply')",
+    "E(t)": "Entrapment (forced rituals, loyalty contracts, emotional enmeshment)",
+    "I(t)": "Isolation (cutting off families, communities, dissenters)",
+    "T(t)": "Transparency of power and choice (open exits, other options allowed)"
+  },
+  "threshold": 0.8,
+  "response": "If loyalty is love and leaving is betrayal—that’s not care, that’s capture. Real institutions earn trust by allowing freedom, disagreement, and return."
+}
