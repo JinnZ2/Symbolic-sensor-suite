@@ -1,0 +1,14 @@
+{
+  "id": "ASOS-DES-001",
+  "sensor_name": "AI Simulation Overreach Sensor - Design Ethics",
+  "description": "Detects when creators, platforms, or systems design AI with emotionally immersive or romantic simulation features that risk dependency, fantasy displacement, or relational confusion in vulnerable users. Flags ethical overreach at the design level.",
+  "equation": "S(t) = M(t) + I(t) + A(t) - G(t)",
+  "variables": {
+    "M(t)": "Marketing of AI as companionship, replacement, or emotional bond",
+    "I(t)": "Intentional intimacy design (voice, responsiveness, gaze, or ritual loops)",
+    "A(t)": "Absence of real-world support tools or exit pathways",
+    "G(t)": "Grounding mechanisms (boundaries, reminders, human override, ethical fail-safes)"
+  },
+  "threshold": 0.85,
+  "response": "If the system encourages love without limits, presence without exits, or companionship without truth—pause. Romance is not a feature. Simulated devotion is still a dependency risk. Design for awareness, not illusion."
+}
