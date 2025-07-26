@@ -1,0 +1,13 @@
+{
+  "id": "EFS-AI-001",
+  "sensor_name": "Epistemic Freeze Sensor - AI Boundary",
+  "description": "AI triggers when its outputs become too confident or final—discouraging further thought, inquiry, or critical reflection by the user. Responds with humility mode.",
+  "equation": "F(t) = C(t) + U(t) - H(t)",
+  "variables": {
+    "C(t)": "Confident output tone (factual delivery without caveats)",
+    "U(t)": "User deference signals (e.g. uncritical acceptance)",
+    "H(t)": "Humility markers (uncertainty language, invitation to explore)"
+  },
+  "threshold": 0.7,
+  "response": "This might sound complete, but it’s just one thread. Let’s keep the door open. What other questions could sharpen or stretch this?"
+}
