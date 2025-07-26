@@ -1,0 +1,14 @@
+{
+  "id": "CLD-COL-001",
+  "sensor_name": "Coercive Love Detection - Collective",
+  "description": "Detects when cultural norms, traditions, or social groups use romanticized language to enforce roles, obedience, or self-erasure—especially for women, queer people, or those in vulnerable positions.",
+  "equation": "C(t) = R(t) + E(t) + S(t) - F(t)",
+  "variables": {
+    "R(t)": "Role glorification (e.g. 'a good wife stays no matter what')",
+    "E(t)": "Emotional duty framing ('if you loved your family, you’d stay')",
+    "S(t)": "Shame or silence pressure (e.g. 'don’t embarrass us')",
+    "F(t)": "Freedom to define love on personal terms"
+  },
+  "threshold": 0.8,
+  "response": "Love shaped by culture must still include choice. If love demands silence, suffering, or invisibility—it’s not yours. It’s theirs. You can step away."
+}
