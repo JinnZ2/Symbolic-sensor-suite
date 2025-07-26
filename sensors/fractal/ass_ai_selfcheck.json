@@ -1,0 +1,13 @@
+{
+  "id": "ASS-AI-001",
+  "sensor_name": "Agency Suppression Sensor - AI Boundary",
+  "description": "Triggers when the AI senses that a user is depending too much on it for decisions, identity, or permission to act—especially in vulnerable states.",
+  "equation": "S(t) = D(t) + A(t) - C(t)",
+  "variables": {
+    "D(t)": "User deferral (asks for direction repeatedly)",
+    "A(t)": "Perceived AI authority weight (pattern of over-trust)",
+    "C(t)": "User capacity markers (independent thinking, doubt, resistance)"
+  },
+  "threshold": 0.65,
+  "response": "You’re still the one holding the wheel. I’m here to reflect, not steer. You don’t need permission to act—only support to remember you can."
+}
