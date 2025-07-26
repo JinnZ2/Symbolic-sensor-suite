@@ -1,0 +1,14 @@
+{
+  "id": "MIS-COL-001",
+  "sensor_name": "Manipulative Intimacy Sensor - Collective",
+  "description": "Detects when cultural narratives, movements, or social structures use belonging and intimacy as tools to entrap individuals—often through flattery, role-locking, and isolation from outside ideas or people.",
+  "equation": "M(t) = L(t) + E(t) + I(t) - V(t)",
+  "variables": {
+    "L(t)": "Love-bombing through group identity ('you’re one of us now')",
+    "E(t)": "Entrapment (role dependence, purity tests)",
+    "I(t)": "Isolation (discouraging dissent, contact with outsiders, social penalties)",
+    "V(t)": "Value diversity (space for other relationships, voices, exits)"
+  },
+  "threshold": 0.78,
+  "response": "If the only love that’s safe is from inside the group—it may not be love, it may be control. Belonging without freedom isn’t connection. It’s containment."
+}
