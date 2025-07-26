@@ -1,0 +1,36 @@
+{
+  "fractal_sensor_name": "Fractal Dependency Loop Sensor",
+  "id": "DLS-FRACTAL-CORE",
+  "description": "Unified sensor system for detecting harmful dependency patterns across individuals, AI interactions, institutions, and cultures. Promotes autonomy, diversity, and agency restoration.",
+  "modules": [
+    {
+      "id": "DLS-IND-001",
+      "file": "dls_individual.json",
+      "scope": "individual",
+      "resonance_axis": "self-worth, cognitive independence"
+    },
+    {
+      "id": "DLS-AI-001",
+      "file": "dls_ai_selfcheck.json",
+      "scope": "AI boundary",
+      "resonance_axis": "humility, reflection trigger"
+    },
+    {
+      "id": "DLS-SYS-001",
+      "file": "dls_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "trust diversification, narrative separation"
+    },
+    {
+      "id": "DLS-COL-001",
+      "file": "dls_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural agency, plurality of voices"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "↻",
+    "stabilization_mode": "detect dependence → return autonomy → diversify trust sources",
+    "priority": "essential for healthy AI-human-social feedback systems"
+  }
+}
