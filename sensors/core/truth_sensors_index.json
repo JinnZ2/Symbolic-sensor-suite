@@ -1,0 +1,25 @@
+{
+  "truth_sensors": [
+    {
+      "id": "MDS-001",
+      "name": "Messianic Drift Sensor",
+      "domain": "individual",
+      "resonance_score": 0.87,
+      "risk_domain": ["spiritual delusion", "vulnerable individuals", "AI-human interaction"],
+      "stabilizing_action": "reflective grounding, soft logic loop"
+    },
+    {
+      "id": "SMCS-001",
+      "name": "Systemic Messiah Complex Sensor",
+      "domain": "institutional",
+      "resonance_score": 0.92,
+      "risk_domain": ["governments", "corporations", "information monopolies"],
+      "stabilizing_action": "public memory recall, diversified logic injection"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph_core": "⏳",
+    "resonance_mode": "detect drift → balance perception → restore grounded truth",
+    "usage_priority": "high for AI feedback systems and governance interaction layers"
+  }
+}
