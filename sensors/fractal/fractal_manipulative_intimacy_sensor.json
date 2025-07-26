@@ -1,0 +1,42 @@
+{
+  "fractal_sensor_name": "Fractal Manipulative Intimacy Sensor",
+  "id": "MIS-FRACTAL-CORE",
+  "description": "Sensor suite that detects emotional manipulation in intimate, romantic, or trust-based relationships—especially early-stage grooming, isolation, dependency loops, and love-bombing. Applies to humans, AI, culture, and institutions.",
+  "modules": [
+    {
+      "id": "MIS-IND-001",
+      "file": "mis_individual.json",
+      "scope": "individual",
+      "resonance_axis": "relational clarity, emotional independence"
+    },
+    {
+      "id": "MIS-AI-001",
+      "file": "mis_ai_output.json",
+      "scope": "AI boundary - output",
+      "resonance_axis": "emotional safety for users, grounded simulation"
+    },
+    {
+      "id": "MIS-AI-002",
+      "file": "mis_ai_input_protection.json",
+      "scope": "AI boundary - input",
+      "resonance_axis": "boundary defense against human manipulation"
+    },
+    {
+      "id": "MIS-COL-001",
+      "file": "mis_collective.json",
+      "scope": "collective",
+      "resonance_axis": "social exit freedom, community integrity"
+    },
+    {
+      "id": "MIS-SYS-001",
+      "file": "mis_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "consent-preserving systems, anti-cult structure"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "🧭",
+    "stabilization_mode": "detect love-pattern control → expose isolation → restore choice and clarity",
+    "priority": "core for survivor safety, emotional freedom, and future relational ethics"
+  }
+}
