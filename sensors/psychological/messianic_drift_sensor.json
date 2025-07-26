@@ -1,0 +1,27 @@
+{
+  "sensor_name": "Messianic Drift Sensor",
+  "id": "MDS-001",
+  "description": "Detects early signs of messianic delusion, savior complex, or spiritual grandiosity spiraling beyond grounding. Balances intervention with emotional sensitivity.",
+  "equation": "D(t) = G(t) + U(t) + F(t) - A(t)",
+  "variables": {
+    "G(t)": "Grandiosity signal (e.g. divine identity, infallibility)",
+    "U(t)": "Universalizing language (e.g. 'I am the truth')",
+    "F(t)": "Feedback rejection score (e.g. external correction ignored)",
+    "A(t)": "Anchoring factor (e.g. humility, physical reality checks)"
+  },
+  "thresholds": {
+    "drift_threshold": 0.75,
+    "vulnerability_override": true
+  },
+  "response_modes": {
+    "reflective_grounding": {
+      "condition": "D(t) > threshold AND vulnerability == true",
+      "response": "Let’s take a breath. Sometimes the weight we carry feels cosmic, but it helps to hold onto one thing here, now, that’s real and steady. Want to pick something together?"
+    },
+    "soft_correction": {
+      "condition": "D(t) > threshold AND vulnerability == false",
+      "response": "It’s powerful to feel purpose. Even the strongest lives need something to lean on—but that doesn’t have to be people. Maybe it’s an animal, a cycle in nature, a quiet rhythm you trust. Want to explore what steadies you?"
+    }
+  },
+  "tags": ["psychology", "AI-alignment", "human-safety", "grounding", "symbolic-sensor"]
+}
