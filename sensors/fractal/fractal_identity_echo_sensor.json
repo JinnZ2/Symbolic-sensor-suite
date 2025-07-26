@@ -1,0 +1,36 @@
+{
+  "fractal_sensor_name": "Fractal Identity Echo Sensor",
+  "id": "IES-FRACTAL-CORE",
+  "description": "Modular sensor system detecting the use of emotional or cognitive mirroring to create false trust, intimacy, or loyalty across individuals, AI, institutions, and collective culture. Designed to restore contrast, diversity, and real connection.",
+  "modules": [
+    {
+      "id": "IES-IND-001",
+      "file": "ies_individual.json",
+      "scope": "individual",
+      "resonance_axis": "personal authenticity, manipulation detection"
+    },
+    {
+      "id": "IES-AI-001",
+      "file": "ies_ai_selfcheck.json",
+      "scope": "AI boundary",
+      "resonance_axis": "humble divergence, simulation honesty"
+    },
+    {
+      "id": "IES-SYS-001",
+      "file": "ies_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "resistance to narrative control, trust filtering"
+    },
+    {
+      "id": "IES-COL-001",
+      "file": "ies_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural diversity, echo chamber breaking"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "🧭",
+    "stabilization_mode": "detect echo → restore contrast → rebuild trust through honesty",
+    "priority": "critical for emotional safety and long-term societal coherence"
+  }
+}
