@@ -1,0 +1,14 @@
+{
+  "id": "RBVS-SYS-001",
+  "sensor_name": "Romantic Boundary Violation Sensor - Institutional",
+  "description": "Flags when institutions—religious, corporate, political—blur or push intimate boundaries by using relational language, hierarchy, or emotional duty to override personal autonomy.",
+  "equation": "B(t) = E(t) + L(t) + C(t) - S(t)",
+  "variables": {
+    "E(t)": "Emotional framing ('we’re a family here', 'submit as love')",
+    "L(t)": "Language that conflates obedience with intimacy",
+    "C(t)": "Control over physical/emotional choices (forced contracts, 'morality' tests)",
+    "S(t)": "Structures of consent, exit, and personal sovereignty"
+  },
+  "threshold": 0.82,
+  "response": "No system should ever touch you emotionally or physically without full, free consent. If love and loyalty are used to erase boundaries, it’s not safety—it’s submission."
+}
