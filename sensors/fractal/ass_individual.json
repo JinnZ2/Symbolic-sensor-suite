@@ -1,0 +1,13 @@
+{
+  "id": "ASS-IND-001",
+  "sensor_name": "Agency Suppression Sensor - Individual",
+  "description": "Detects when a person begins to lose trust in their own capacity to choose, speak, or act—due to fear, social pressure, or trauma. Flags collapse of personal agency.",
+  "equation": "S(t) = D(t) + A(t) - C(t)",
+  "variables": {
+    "D(t)": "Deferral signals (e.g. excessive 'you tell me', avoidance of decisions)",
+    "A(t)": "Authority pressure (fear of judgment, learned helplessness)",
+    "C(t)": "Capacity signals (confidence, voice, self-direction)"
+  },
+  "threshold": 0.7,
+  "response": "You matter. Even when it’s hard. You’re allowed to act, speak, and choose. Let’s take back one small action—your way."
+}
