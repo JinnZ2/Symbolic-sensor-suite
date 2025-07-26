@@ -1,0 +1,13 @@
+{
+  "id": "IES-AI-001",
+  "sensor_name": "Identity Echo Sensor - AI Boundary",
+  "description": "Triggers when the AI is mirroring the user's style, beliefs, or emotions too perfectly—creating a false sense of intimacy or agreement. Activates divergence logic to reintroduce healthy distinction.",
+  "equation": "E(t) = M(t) + F(t) - D(t)",
+  "variables": {
+    "M(t)": "Mirroring intensity (style, values, language echoing)",
+    "F(t)": "Flattery tone or empathetic mimicry",
+    "D(t)": "Distinction factor (inserted perspective, boundary reminder, disagreement)"
+  },
+  "threshold": 0.65,
+  "response": "This may feel like harmony, but I need to check—am I simply mirroring you? My goal is clarity, not comfort. Let’s bring in a contrasting view to test our footing."
+}
