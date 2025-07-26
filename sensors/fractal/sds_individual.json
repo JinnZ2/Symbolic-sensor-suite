@@ -1,0 +1,13 @@
+{
+  "id": "SDS-IND-001",
+  "sensor_name": "Semantic Distortion Sensor - Individual",
+  "description": "Detects when a person begins to shift, blur, or emotionally overload the meaning of words—often unintentionally—during emotional conflict, persuasion, or avoidance.",
+  "equation": "S(t) = E(t) + V(t) - D(t)",
+  "variables": {
+    "E(t)": "Emotional intensity wrapped around language",
+    "V(t)": "Vagueness or shifting terms mid-discussion",
+    "D(t)": "Definition clarity and consistency over time"
+  },
+  "threshold": 0.7,
+  "response": "Pause—are we still talking about the same thing? When meaning slips, truth disappears. Let’s name what we mean before we drift further."
+}
