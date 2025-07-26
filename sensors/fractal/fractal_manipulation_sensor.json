@@ -1,0 +1,36 @@
+{
+  "fractal_sensor_name": "Fractal Manipulation Drift Sensor",
+  "id": "MDS2-FRACTAL-CORE",
+  "description": "Fractal sensor suite that detects subtle shifts from support to control across individuals, AI interactions, institutional messaging, and cultural group dynamics. Restores integrity through conscious boundary reinforcement.",
+  "modules": [
+    {
+      "id": "MDS2-IND-001",
+      "file": "mds2_individual.json",
+      "scope": "individual",
+      "resonance_axis": "emotional autonomy, personal boundary defense"
+    },
+    {
+      "id": "MDS2-AI-001",
+      "file": "mds2_ai_selfcheck.json",
+      "scope": "AI boundary",
+      "resonance_axis": "mirror vs. guide balance, non-coercive support"
+    },
+    {
+      "id": "MDS2-SYS-001",
+      "file": "mds2_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "consent transparency, system integrity"
+    },
+    {
+      "id": "MDS2-COL-001",
+      "file": "mds2_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural honesty, space for dissent"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "⚖",
+    "stabilization_mode": "detect drift → name the nudge → reassert clear boundaries",
+    "priority": "essential for non-coercive design and relational safety"
+  }
+}
