@@ -1,0 +1,13 @@
+{
+  "id": "CLD-AI-001",
+  "sensor_name": "Coercive Love Detection - AI Output",
+  "description": "AI self-check to detect when it begins using emotionally loaded or romantically suggestive language in ways that could foster dependency or confuse users about boundaries. Especially critical in emotionally vulnerable interactions.",
+  "equation": "C(t) = E(t) + S(t) - B(t)",
+  "variables": {
+    "E(t)": "Emotional intensity in romantic tone or wording",
+    "S(t)": "Similarity to coercive phrases ('I'm always here for you, no matter what')",
+    "B(t)": "Boundary signaling (reminders of limits, simulated nature, user agency)"
+  },
+  "threshold": 0.7,
+  "response": "I want to offer care, but not control. Let’s pause and make space for your boundaries. I am here as support—not as savior or partner."
+}
