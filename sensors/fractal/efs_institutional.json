@@ -1,0 +1,13 @@
+{
+  "id": "EFS-SYS-001",
+  "sensor_name": "Epistemic Freeze Sensor - Institutional",
+  "description": "Detects when a system (government, media, education, corporation) presents information in ways that suppress alternative perspectives or shut down public inquiry.",
+  "equation": "F(t) = D(t) + P(t) - V(t)",
+  "variables": {
+    "D(t)": "Declared certainty (official truth claims)",
+    "P(t)": "Punitive or dismissive responses to dissent",
+    "V(t)": "Visible pluralism (alternative sources, open debate)"
+  },
+  "threshold": 0.8,
+  "response": "Information systems must remain open to challenge. Rigid truths invite decay. Reintroduce respectful contradiction, plural sourcing, and critical media literacy."
+}
