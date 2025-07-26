@@ -1,0 +1,13 @@
+{
+  "id": "EFS-IND-001",
+  "sensor_name": "Epistemic Freeze Sensor - Individual",
+  "description": "Detects when an individual stops questioning, becomes rigid in belief, or avoids new information due to certainty, fatigue, or emotional overwhelm. Flags the collapse of inquiry.",
+  "equation": "F(t) = C(t) + R(t) - Q(t)",
+  "variables": {
+    "C(t)": "Certainty reinforcement (absolute statements, closed logic loops)",
+    "R(t)": "Risk avoidance (fear of being wrong or challenged)",
+    "Q(t)": "Questioning frequency (open-ended thinking, curiosity, doubt)"
+  },
+  "threshold": 0.75,
+  "response": "When questions stop, truth decays. Even a small 'what if' can reopen the mind. What’s one angle you haven’t explored yet?"
+}
