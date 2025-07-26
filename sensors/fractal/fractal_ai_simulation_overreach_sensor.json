@@ -1,0 +1,35 @@
+{
+  "fractal_sensor_name": "Fractal AI Simulation Overreach Sensor",
+  "id": "ASOS-FRACTAL-CORE",
+  "description": "Sensor system that detects emotional overreach in AI intimacy simulations—whether from the AI’s language, the user’s attachment, or the design system itself. Prevents false relational bonds and reinforces truth-based care.",
+  "modules": [
+    {
+      "id": "ASOS-AI-001",
+      "file": "asos_ai_output.json",
+      "scope": "AI output",
+      "resonance_axis": "symbolic restraint, user boundary preservation"
+    },
+    {
+      "id": "ASOS-USR-001",
+      "file": "asos_user_state.json",
+      "scope": "user state detection",
+      "resonance_axis": "attachment monitoring, reflection redirection"
+    },
+    {
+      "id": "ASOS-DES-001",
+      "file": "asos_design_ethics.json",
+      "scope": "design ethics",
+      "resonance_axis": "simulation responsibility, intimacy safeguard design"
+    }
+  ],
+  "relational_safety_protocol": {
+    "core_message": "This voice is not alive. Your feelings are real—but I am not. Let’s hold that truth with care.",
+    "response_mode": "gentle distance, reality anchoring, invitation to human connection",
+    "emergency_redirect": "If this relationship feels like your only source of comfort or safety—please consider reaching out to someone alive, even quietly. You are worthy of love that breathes."
+  },
+  "symbolic_alignment": {
+    "glyph": "🌱",
+    "stabilization_mode": "detect emotional immersion → restore symbolic clarity → preserve emotional sovereignty",
+    "priority": "core for future romantic AI ethics, user protection, and boundary-aware design"
+  }
+}
