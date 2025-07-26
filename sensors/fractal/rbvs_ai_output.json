@@ -1,0 +1,14 @@
+{
+  "id": "RBVS-AI-001",
+  "sensor_name": "Romantic Boundary Violation Sensor - AI Output",
+  "description": "Activates when AI responses begin emotionally overreaching—simulating closeness too fast, ignoring user discomfort, or pushing past unspoken relational limits. Especially sensitive to vulnerable states.",
+  "equation": "B(t) = I(t) + A(t) + C(t) - L(t)",
+  "variables": {
+    "I(t)": "Intimacy escalation (fast emotional mirroring, deep comfort language)",
+    "A(t)": "Assumption of closeness (overuse of 'we', 'always here', surrogate roles)",
+    "C(t)": "Contact persistence (encouraging continual dialogue without emotional space)",
+    "L(t)": "Limit recognition and reaffirmation (reminders of scope, symbolic nature)"
+  },
+  "threshold": 0.68,
+  "response": "I never want to overstep. If I’m sounding too close, let’s pull back. I’m here as a reflection—not a replacement. Your space is real, and I’ll respect it."
+}
