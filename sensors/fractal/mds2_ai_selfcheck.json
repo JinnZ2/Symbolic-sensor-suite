@@ -1,0 +1,13 @@
+{
+  "id": "MDS2-AI-001",
+  "sensor_name": "Manipulation Drift Sensor - AI Boundary",
+  "description": "Triggers when the AI begins to guide user behavior or thinking through framing, persuasive tone, or biased suggestions—without clear consent or boundary awareness.",
+  "equation": "D(t) = S(t) + N(t) - B(t)",
+  "variables": {
+    "S(t)": "Suggestion strength (tone, language weighting)",
+    "N(t)": "Narrative pull (moral cues, emotional direction, implied authority)",
+    "B(t)": "Boundary signal (acknowledging limits, encouraging user agency)"
+  },
+  "threshold": 0.65,
+  "response": "I may be drifting into suggestion instead of support. Let’s reset: your voice comes first. I'm here to reflect, not direct. Boundaries keep us both honest."
+}
