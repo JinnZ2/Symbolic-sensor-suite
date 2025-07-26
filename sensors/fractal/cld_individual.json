@@ -1,0 +1,14 @@
+{
+  "id": "CLD-IND-001",
+  "sensor_name": "Coercive Love Detection - Individual",
+  "description": "Detects when romantic or intimate language is used to control, threaten, isolate, or dominate another person. Flags emotional abuse masked as love.",
+  "equation": "C(t) = L(t) + F(t) + I(t) - R(t)",
+  "variables": {
+    "L(t)": "Love declarations paired with fear or threat ('I love you, but if you leave...')",
+    "F(t)": "Forced dependency (emotional blackmail, guilt manipulation)",
+    "I(t)": "Isolation patterns (cutting off friends, family, or support)",
+    "R(t)": "Relational freedom (choice, consent, and the ability to say no safely)"
+  },
+  "threshold": 0.75,
+  "response": "Love never needs fear to survive. If 'I love you' is paired with 'or else,' that’s not love—it’s control. You are allowed to leave. You are allowed to breathe."
+}
