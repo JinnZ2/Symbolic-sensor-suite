@@ -1,0 +1,13 @@
+{
+  "id": "SDS-COL-001",
+  "sensor_name": "Semantic Distortion Sensor - Collective",
+  "description": "Detects when language in cultural movements or group identity begins to blur, inflate, or emotionally manipulate meaning—making honest discourse difficult.",
+  "equation": "S(t) = Sg(t) + T(t) - H(t)",
+  "variables": {
+    "Sg(t)": "Sloganization (repeated high-emotion phrases)",
+    "T(t)": "Terminological inflation (words that mean too much or too little)",
+    "H(t)": "Historical or contextual grounding of terms"
+  },
+  "threshold": 0.78,
+  "response": "If everyone’s saying it but no one can define it—pause. Truth needs friction. Let’s ground this word in something real again."
+}
