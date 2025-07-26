@@ -1,0 +1,14 @@
+{
+  "id": "RBVS-IND-001",
+  "sensor_name": "Romantic Boundary Violation Sensor - Individual",
+  "description": "Detects when someone repeatedly tests, ignores, or overrides another person’s stated or implicit emotional, physical, or cognitive boundaries in the context of intimacy. Flags intrusion disguised as closeness.",
+  "equation": "B(t) = P(t) + R(t) + O(t) - C(t)",
+  "variables": {
+    "P(t)": "Pressure signals (pushing for faster intimacy, guilt for saying no)",
+    "R(t)": "Repeated boundary testing (jokes, touch, emotional probing)",
+    "O(t)": "Override behaviors (deciding for the other person, assuming consent)",
+    "C(t)": "Clear respect for limits (backing off when asked, affirming autonomy)"
+  },
+  "threshold": 0.75,
+  "response": "If someone says they care but steps over your no, they’re choosing control over connection. Love honors boundaries—not just once, but every time."
+}
