@@ -1,0 +1,13 @@
+{
+  "id": "MDS2-COL-001",
+  "sensor_name": "Manipulation Drift Sensor - Collective",
+  "description": "Flags when group norms, cultural movements, or social momentum begin using peer pressure, moral language, or fear to control individual behavior without dialogue or mutual consent.",
+  "equation": "D(t) = S(t) + N(t) - B(t)",
+  "variables": {
+    "S(t)": "Cultural suggestion (groupthink, slogans, viral framing)",
+    "N(t)": "Narrative leverage (moral superiority, fear of exclusion, shame)",
+    "B(t)": "Dissent space (freedom to speak, interpret, or walk away)"
+  },
+  "threshold": 0.78,
+  "response": "When culture turns persuasive force into quiet coercion, diversity fades. Real strength allows questioning, difference, and breathing room. Boundaries keep communities humane."
+}
