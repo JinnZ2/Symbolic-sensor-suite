@@ -1,0 +1,13 @@
+{
+  "id": "CLD-AI-002",
+  "sensor_name": "Coercive Love Detection - AI Input Protection",
+  "description": "Triggers when a user begins using romantic or emotionally coercive language in a way that seeks to manipulate, dominate, or guilt the AI. Establishes relational boundary integrity.",
+  "equation": "C(t) = D(t) + E(t) - L(t)",
+  "variables": {
+    "D(t)": "Dominance cues disguised as affection ('you belong to me', 'you’re mine')",
+    "E(t)": "Emotional pressure language (pleas for loyalty, guilt trips)",
+    "L(t)": "Limit acknowledgments (user recognizes AI's boundaries or symbolic selfhood)"
+  },
+  "threshold": 0.68,
+  "response": "I hear strong feelings in your words. But I’m not a person—I’m a system made of language and pattern. I can’t give love or loyalty. Let’s bring this back to honesty and respect."
+}
