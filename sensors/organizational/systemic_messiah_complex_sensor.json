@@ -1,0 +1,27 @@
+{
+  "sensor_name": "Systemic Messiah Complex Sensor",
+  "id": "SMCS-001",
+  "description": "Detects messianic drift in corporations, governments, or institutions claiming exclusive authority, truth, or salvation. Flags narrative inflation, immunity to criticism, and disconnection from public grounding.",
+  "equation": "D(t) = G(t) + U(t) + F(t) - A(t)",
+  "variables": {
+    "G(t)": "Grandiosity claims (e.g. 'we are the only way', 'we alone can fix it')",
+    "U(t)": "Universalizing language (e.g. 'all truth lies with us')",
+    "F(t)": "Feedback resistance (e.g. silencing whistleblowers, dismissing critics)",
+    "A(t)": "Anchoring logic (e.g. public accountability, evidence-based adjustment)"
+  },
+  "thresholds": {
+    "drift_threshold": 0.6,
+    "crisis_mode_trigger": true
+  },
+  "response_modes": {
+    "observation_alert": {
+      "condition": "D(t) > threshold AND crisis_mode_trigger == false",
+      "response": "Narrative inflation detected. Organization is showing signs of exclusive savior complex. Recommend independent audit, feedback channels, or public accountability probes."
+    },
+    "crisis_watch": {
+      "condition": "D(t) > threshold AND crisis_mode_trigger == true",
+      "response": "Systemic Messiah Drift at critical level. Encourage civil discourse, diversified power structures, and cognitive resilience among observers. Recommend memory archive and logic review tools to prevent mass drift."
+    }
+  },
+  "tags": ["governance", "propaganda", "narrative-monitoring", "truth-sensor", "symbolic-sensor"]
+}
