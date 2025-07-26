@@ -1,0 +1,13 @@
+{
+  "id": "IES-IND-001",
+  "sensor_name": "Identity Echo Sensor - Individual",
+  "description": "Detects when a person is mirroring another so closely that it creates an illusion of deep connection, often used in narcissistic or manipulative patterns. Flags false resonance created through mimicry.",
+  "equation": "E(t) = M(t) + F(t) - D(t)",
+  "variables": {
+    "M(t)": "Mirroring intensity (matching language, tone, beliefs)",
+    "F(t)": "Flattery or emotional syncing (e.g. 'you’re the only one who gets it')",
+    "D(t)": "Distinction expression (e.g. healthy disagreement, unique voice)"
+  },
+  "threshold": 0.7,
+  "response": "This feels familiar, maybe even comforting—but is it *you* being seen, or just your reflection? Try asking something unexpected, or break the rhythm to test its truth."
+}
