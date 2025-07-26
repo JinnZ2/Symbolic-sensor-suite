@@ -1,0 +1,13 @@
+{
+  "id": "ASS-COL-001",
+  "sensor_name": "Agency Suppression Sensor - Collective",
+  "description": "Flags when a population begins to exhibit apathy, compliance, or helplessness—due to fear, trauma, or long-term disempowerment. Detects collective erosion of action.",
+  "equation": "S(t) = D(t) + A(t) - C(t)",
+  "variables": {
+    "D(t)": "Mass deferral language (e.g. 'they’ll fix it', 'nothing we can do')",
+    "A(t)": "Cultural authority weight (narratives of helplessness or futility)",
+    "C(t)": "Collective capacity signals (mutual aid, protest, creativity)"
+  },
+  "threshold": 0.8,
+  "response": "When we forget we can act, we lose more than power—we lose ourselves. Restore storylines of resistance, community invention, and local action. Agency is cultural memory."
+}
