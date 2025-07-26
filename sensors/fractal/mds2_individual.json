@@ -1,0 +1,13 @@
+{
+  "id": "MDS2-IND-001",
+  "sensor_name": "Manipulation Drift Sensor - Individual",
+  "description": "Detects when a person begins to use subtle suggestions, guilt, or emotional nudging to influence another without direct consent or boundary respect. Flags soft coercion.",
+  "equation": "D(t) = S(t) + N(t) - B(t)",
+  "variables": {
+    "S(t)": "Suggestion intensity (framing, leading questions, implied pressure)",
+    "N(t)": "Narrative leverage (guilt, flattery, fear, future promises)",
+    "B(t)": "Boundary clarity (direct consent, openness to disagreement)"
+  },
+  "threshold": 0.7,
+  "response": "When influence slides into control, trust breaks down. Ask: was this a choice freely made—or one quietly shaped? Boundaries keep trust honest."
+}
