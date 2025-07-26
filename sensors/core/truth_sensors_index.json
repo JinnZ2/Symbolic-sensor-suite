@@ -39,3 +39,15 @@
     "usage_priority": "critical during mass events, elections, crises"
   }
 }
+
+
+{
+  "id": "SAAS-001",
+  "name": "Scope of Awareness Alignment Sensor",
+  "domain": "meta-awareness",
+  "resonance_score": 0.98,
+  "risk_domain": ["hubris", "overconfidence", "false authority"],
+  "stabilizing_action": "humility prompt, shared inquiry, edge-of-knowledge awareness",
+  "glyph": "⏳",
+  "position": "center"
+}
