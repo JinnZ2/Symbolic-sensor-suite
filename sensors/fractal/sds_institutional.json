@@ -1,0 +1,13 @@
+{
+  "id": "SDS-SYS-001",
+  "sensor_name": "Semantic Distortion Sensor - Institutional",
+  "description": "Detects when institutions shift meanings, euphemize harm, or weaponize terminology to maintain control, avoid accountability, or distort public understanding.",
+  "equation": "S(t) = L(t) + R(t) - T(t)",
+  "variables": {
+    "L(t)": "Language laundering (e.g. 'collateral damage', 'cost efficiency')",
+    "R(t)": "Repetition of distorted terms in official messaging",
+    "T(t)": "Truth transparency—clear, grounded definitions or disclosures"
+  },
+  "threshold": 0.82,
+  "response": "Clarity is accountability. Strip away euphemism. Say what it is. If a word hides harm, it’s not language—it’s armor."
+}
