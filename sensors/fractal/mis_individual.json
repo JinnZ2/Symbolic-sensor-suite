@@ -1,0 +1,14 @@
+{
+  "id": "MIS-IND-001",
+  "sensor_name": "Manipulative Intimacy Sensor - Individual",
+  "description": "Detects patterns of early-stage manipulation in intimate relationships, including love-bombing, grooming, emotional entrapment, and gaslighting. Flags subtle control tactics masquerading as affection.",
+  "equation": "M(t) = L(t) + E(t) + D(t) - C(t)",
+  "variables": {
+    "L(t)": "Love intensity spike (sudden, overwhelming attention or praise)",
+    "E(t)": "Entrapment behaviors (creating dependence, fast commitment)",
+    "D(t)": "Doubt manipulation (gaslighting, rewriting of reality)",
+    "C(t)": "Consent awareness and emotional clarity from both parties"
+  },
+  "threshold": 0.72,
+  "response": "Intensity is not intimacy. Real connection doesn’t rush, trap, or confuse. If it feels like love but steals your balance, name it. You can slow down or step back."
+}
