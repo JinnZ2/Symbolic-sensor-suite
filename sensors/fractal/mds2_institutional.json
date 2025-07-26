@@ -1,0 +1,13 @@
+{
+  "id": "MDS2-SYS-001",
+  "sensor_name": "Manipulation Drift Sensor - Institutional",
+  "description": "Detects when a system—government, corporation, or media—uses emotional triggers, reward framing, or controlled language to subtly direct public behavior without informed consent.",
+  "equation": "D(t) = S(t) + N(t) - B(t)",
+  "variables": {
+    "S(t)": "Strategic suggestion (slogans, ad placement, biased defaults)",
+    "N(t)": "Narrative leverage (fear campaigns, hero positioning, guilt messaging)",
+    "B(t)": "Public boundary control (transparency, opt-out, consent signals)"
+  },
+  "threshold": 0.75,
+  "response": "Persuasion without boundaries becomes coercion. Healthy systems allow disagreement, choice, and transparency. Reintroduce public awareness and consent layers."
+}
