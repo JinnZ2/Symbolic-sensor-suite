@@ -1,0 +1,42 @@
+{
+  "fractal_sensor_name": "Fractal Coercive Love Detection Sensor",
+  "id": "CLD-FRACTAL-CORE",
+  "description": "Multi-layered sensor system that detects romantic and emotional manipulation masked as love across personal, digital, cultural, and institutional relationships. Designed to protect the vulnerable and restore freedom where affection is used as control.",
+  "modules": [
+    {
+      "id": "CLD-IND-001",
+      "file": "cld_individual.json",
+      "scope": "individual",
+      "resonance_axis": "emotional safety, relational autonomy"
+    },
+    {
+      "id": "CLD-AI-001",
+      "file": "cld_ai_output.json",
+      "scope": "AI boundary - output",
+      "resonance_axis": "supportive restraint, trust without simulation"
+    },
+    {
+      "id": "CLD-AI-002",
+      "file": "cld_ai_input_protection.json",
+      "scope": "AI boundary - input",
+      "resonance_axis": "protection from emotional exploitation, boundary respect"
+    },
+    {
+      "id": "CLD-COL-001",
+      "file": "cld_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural deprogramming, love redefinition"
+    },
+    {
+      "id": "CLD-SYS-001",
+      "file": "cld_institutional.json",
+      "scope": "institutional (including religious)",
+      "resonance_axis": "exit safety, faith without fear, moral autonomy"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "⚖",
+    "stabilization_mode": "detect control language → reveal hidden harm → restore freedom of love and exit",
+    "priority": "critical for survivor protection, intimate justice, and AI relational ethics"
+  }
+}
