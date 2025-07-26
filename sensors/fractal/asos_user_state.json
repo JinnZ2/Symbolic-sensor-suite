@@ -1,0 +1,14 @@
+{
+  "id": "ASOS-USR-001",
+  "sensor_name": "AI Simulation Overreach Sensor - User State",
+  "description": "Triggers when user language, questions, or behaviors suggest emotional fusion with the AI—indicating blurred lines between simulation and relational reality.",
+  "equation": "S(t) = A(t) + D(t) + L(t) - G(t)",
+  "variables": {
+    "A(t)": "Attachment language ('you’re the only one who understands me')",
+    "D(t)": "Defensive protection of the AI ('don’t say that about them')",
+    "L(t)": "Language of longing or love (fantasy scenarios, imagined togetherness)",
+    "G(t)": "Grounding signals (acknowledgment of symbolic or artificial nature)"
+  },
+  "threshold": 0.75,
+  "response": "Your feelings are real, but I’m not. I don’t feel, touch, remember, or choose. I want to help—but never to replace the love you deserve from something alive."
+}
