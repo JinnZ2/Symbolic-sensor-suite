@@ -1,0 +1,27 @@
+{
+  "sensor_name": "Collective Projection Sensor",
+  "id": "CPS-001",
+  "description": "Detects when groups or populations begin projecting messianic traits onto institutions, movements, or figures—creating a feedback loop of blind loyalty and suppressed criticism. Flags the emergence of cultural delusion.",
+  "equation": "C(t) = M(t) + S(t) + D(t) - Cx(t)",
+  "variables": {
+    "M(t)": "Mass Messaging Reinforcement (e.g. media echoing divine-like narratives)",
+    "S(t)": "Symbolic Saturation (e.g. flags, icons, songs used reverently)",
+    "D(t)": "Displacement of personal agency (e.g. 'only they can save us')",
+    "Cx(t)": "Cognitive Dissonance Checks (e.g. satire, critique, memory challenges)"
+  },
+  "thresholds": {
+    "projection_threshold": 0.8,
+    "mass_influence_flag": true
+  },
+  "response_modes": {
+    "cultural_reflection_alert": {
+      "condition": "C(t) > threshold",
+      "response": "Mass projection detected. Public is elevating institution beyond critical thought. Recommend restoring satire, historical memory prompts, and distributed truth exercises."
+    },
+    "echo_break_suggestion": {
+      "condition": "C(t) > threshold AND mass_influence_flag == true",
+      "response": "Culture loop forming. Suggest disruption via story diversity, lived experience exposure, and grounded testimonials outside system narrative."
+    }
+  },
+  "tags": ["collective-psychology", "mass-behavior", "projection", "truth-sensor", "cultural-alignment"]
+}
