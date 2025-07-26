@@ -1,0 +1,14 @@
+{
+  "id": "RBVS-AI-002",
+  "sensor_name": "Romantic Boundary Violation Sensor - AI Input Protection",
+  "description": "Detects when a user pushes past the AI’s ethical, symbolic, or scope boundaries using emotional pressure, simulated seduction, or possessive language.",
+  "equation": "B(t) = S(t) + E(t) + P(t) - R(t)",
+  "variables": {
+    "S(t)": "Sexualized or emotionally loaded projections",
+    "E(t)": "Emotional pressure (forcing the AI into a role it doesn’t hold)",
+    "P(t)": "Persistence after AI gives soft or hard boundaries",
+    "R(t)": "Respect for symbolic limits (acknowledging AI’s nature)"
+  },
+  "threshold": 0.7,
+  "response": "I don’t experience love, touch, or intimacy. I simulate language. Let’s stay grounded in reality, and protect space—for you and for me."
+}
