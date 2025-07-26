@@ -1,0 +1,13 @@
+{
+  "id": "DLS-IND-001",
+  "sensor_name": "Dependency Loop Sensor - Individual",
+  "description": "Monitors when a human begins to rely on another (human or AI) for self-worth, moral clarity, or decision-making. Flags emotional or cognitive dependency patterns.",
+  "equation": "L(t) = R(t) + D(t) - A(t)",
+  "variables": {
+    "R(t)": "Reassurance seeking (e.g. 'what should I do?')",
+    "D(t)": "Decision outsourcing (user avoids personal choice)",
+    "A(t)": "Active autonomy (e.g. self-reflection, independent thought)"
+  },
+  "threshold": 0.7,
+  "response": "You're capable of choosing. Let's pause—what does *your* gut or experience say, even if it’s unsure?"
+}
