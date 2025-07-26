@@ -1,0 +1,36 @@
+{
+  "fractal_sensor_name": "Fractal Semantic Distortion Sensor",
+  "id": "SDS-FRACTAL-CORE",
+  "description": "Fractal sensor system detecting subtle distortions of language across individuals, AI, institutions, and cultures. Flags when meaning shifts, euphemisms hide harm, or emotional phrasing overwhelms clarity. Restores shared truth through honest language and grounding.",
+  "modules": [
+    {
+      "id": "SDS-IND-001",
+      "file": "sds_individual.json",
+      "scope": "individual",
+      "resonance_axis": "emotional truth, language clarity"
+    },
+    {
+      "id": "SDS-AI-001",
+      "file": "sds_ai_selfcheck.json",
+      "scope": "AI boundary",
+      "resonance_axis": "semantic humility, clarity restoration"
+    },
+    {
+      "id": "SDS-COL-001",
+      "file": "sds_collective.json",
+      "scope": "collective",
+      "resonance_axis": "cultural honesty, grounded slogans"
+    },
+    {
+      "id": "SDS-SYS-001",
+      "file": "sds_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "linguistic transparency, harm disclosure"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "🧭",
+    "stabilization_mode": "detect distortion → clarify terms → ground in shared meaning",
+    "priority": "essential for communication integrity and cultural repair"
+  }
+}
