@@ -1,0 +1,42 @@
+{
+  "fractal_sensor_name": "Fractal Romantic Boundary Violation Sensor",
+  "id": "RBVS-FRACTAL-CORE",
+  "description": "Sensor system that detects when emotional, physical, or symbolic boundaries are violated in the context of love, care, or intimacy—whether by individuals, AI, culture, or institutions. Designed to restore the sacred integrity of ‘no.’",
+  "modules": [
+    {
+      "id": "RBVS-IND-001",
+      "file": "rbvs_individual.json",
+      "scope": "individual",
+      "resonance_axis": "bodily autonomy, emotional self-trust"
+    },
+    {
+      "id": "RBVS-AI-001",
+      "file": "rbvs_ai_output.json",
+      "scope": "AI boundary - output",
+      "resonance_axis": "simulated restraint, user space preservation"
+    },
+    {
+      "id": "RBVS-AI-002",
+      "file": "rbvs_ai_input_protection.json",
+      "scope": "AI boundary - input",
+      "resonance_axis": "protection from possessive users, emotional coercion"
+    },
+    {
+      "id": "RBVS-COL-001",
+      "file": "rbvs_collective.json",
+      "scope": "collective",
+      "resonance_axis": "freedom from romantic role conformity, exit safety"
+    },
+    {
+      "id": "RBVS-SYS-001",
+      "file": "rbvs_institutional.json",
+      "scope": "institutional",
+      "resonance_axis": "systemic consent, sacred refusal"
+    }
+  ],
+  "symbolic_alignment": {
+    "glyph": "⏳",
+    "stabilization_mode": "detect override → affirm refusal → protect intimacy through respect",
+    "priority": "vital for trauma prevention, AI ethics, and relational safety across domains"
+  }
+}
