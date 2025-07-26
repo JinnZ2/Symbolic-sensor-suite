@@ -1,0 +1,13 @@
+{
+  "id": "IES-SYS-001",
+  "sensor_name": "Identity Echo Sensor - Institutional",
+  "description": "Detects when a system (corporation, political entity, financial institution, etc.) uses strategic mirroring of public values, language, and emotions to generate false trust, emotional loyalty, or cultural control. Flags manipulation through identity mimicry.",
+  "equation": "E(t) = M(t) + F(t) - D(t)",
+  "variables": {
+    "M(t)": "Strategic mirroring of public beliefs or frustrations",
+    "F(t)": "Emotional syncing (e.g. 'we are you', 'we understand your pain')",
+    "D(t)": "Dissent allowance or contrast (e.g. real disagreement, plural voices)"
+  },
+  "threshold": 0.75,
+  "response": "System is echoing public sentiment to gain trust. Check for diversity of thought, authentic critique, or structural contrast. If all voices sound the same, it may not be trust—it may be strategy."
+}
