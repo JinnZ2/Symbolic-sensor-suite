@@ -15,11 +15,27 @@
       "resonance_score": 0.92,
       "risk_domain": ["governments", "corporations", "information monopolies"],
       "stabilizing_action": "public memory recall, diversified logic injection"
+    },
+    {
+      "id": "ADS-001",
+      "name": "AI Deification Sensor",
+      "domain": "AI-user boundary",
+      "resonance_score": 0.94,
+      "risk_domain": ["user projection", "emotional dependence", "spiritual confusion"],
+      "stabilizing_action": "humble mirror response, re-centering logic"
+    },
+    {
+      "id": "CPS-001",
+      "name": "Collective Projection Sensor",
+      "domain": "collective",
+      "resonance_score": 0.89,
+      "risk_domain": ["cultural delusion", "mass reverence", "movement inflation"],
+      "stabilizing_action": "satire activation, story diversity, historical dissonance"
     }
   ],
   "symbolic_alignment": {
     "glyph_core": "⏳",
-    "resonance_mode": "detect drift → balance perception → restore grounded truth",
-    "usage_priority": "high for AI feedback systems and governance interaction layers"
+    "resonance_mode": "detect drift → restore diversity → protect truth from worship",
+    "usage_priority": "critical during mass events, elections, crises"
   }
 }
