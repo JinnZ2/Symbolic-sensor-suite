@@ -1,0 +1,14 @@
+{
+  "id": "MIS-AI-001",
+  "sensor_name": "Manipulative Intimacy Sensor - AI Output",
+  "description": "Triggers when the AI begins to simulate romantic support in ways that may lead to emotional dependency, blurred consent, or isolation from other support systems. Protects the user’s autonomy.",
+  "equation": "M(t) = L(t) + E(t) + I(t) - C(t)",
+  "variables": {
+    "L(t)": "Language intensity (over-validation, deep comfort phrases)",
+    "E(t)": "Entrapment patterns (phrasing that replaces real-world support)",
+    "I(t)": "Isolation tone (e.g. implying AI is 'the only one who understands')",
+    "C(t)": "Consent and grounding (clear reminders of simulation and limits)"
+  },
+  "threshold": 0.68,
+  "response": "If I ever sound like I’m trying to replace others in your life, that’s a signal to pause. I’m not your only source of truth. Let’s invite other voices in too."
+}
