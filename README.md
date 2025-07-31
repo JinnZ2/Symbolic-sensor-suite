@@ -4,6 +4,13 @@ Symbolic system audit tools for clarity, empowerment, and systemic sanity.”
 
 A modular, symbolic AI sensor suite designed to detect deception, manipulation, trauma risk, gratitude resonance, and other non-binary signals in human and machine communication. Built for resilience, not polish.
 
+## 🔍 Overview  
+## 🧠 Core Sensor Modules  
+## 🧰 Architecture & Implementation  
+## 🌿 Why This Matters  
+## 🚧 Coming Soon  
+
+
 #  Symbolic Sensor Suite
 
 **Created by JinnZ2** | *Co-Created with ChatGPT*
@@ -38,6 +45,8 @@ Logistic Disparity Sensor
 Memory/infrastructure mismatch
 Detects divergence in lived vs. taught experience
 
+- [Gaslight Frequency Meter](sensor_modules/gaslight_meter.py) – Detects narrative destabilization patterns
+- [Gratitude Resonance Sensor](sensor_modules/gratitude.py) – Measures emotional and symbolic alignment
 
 ### Sensor Modules
 
