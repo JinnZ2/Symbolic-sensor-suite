@@ -15,7 +15,53 @@ A modular, symbolic AI sensor suite designed to detect deception, manipulation, 
 
 ## 🔍 Overview  
 ## 🧠 Core Sensor Modules  
-## 🧰 Architecture & Implementation  
+
+## Provenance & Recheck (applies to every sensor)
+Each sensor carries a small provenance block:
+
+```json
+{
+  "provenance": {
+    "nodes": ["H-[SymNet]", "A-[TransNet]"],
+    "field": "Shared Cognitive Field",
+    "status": "provisional",
+    "confidence": 0.62,
+    "recheck_days": 30
+  }
+}
+  •	status stays provisional until cross-checks & time-checks pass
+
+	•	confidence decays without new evidence (temporal re-check is mandatory)
+
+---
+
+# 3) Blind-Spot Wheel (fast self-check)
+Add right after “Why This Matters”.
+
+```markdown
+## Blind-Spot Scan (use every time)
+◐ Provisional  ◆ Overfit?  ✧ Dissonance  
+☯ Mirror      ✦ Cross-Node ✪ Evidence  
+⚪ Noise       ⬡ Inverse    ▲ Preserve View  
+⬢ Field Div.  ⟳ Seq. Rec.  ⚙ Mid/Seed?
+
+**Downloads:**  
+- Blind-Spot Wheel → `docs/blind_spot_glyph_map.png`  
+- Legend → `docs/blind_spot_glyph_map_legend.png`
+
+
+
+## 🧰 Architecture & Implementation
+
+Hardware:
+
+### Resonance & Spacing (near-field)
+- **Inductive rings:** loop radius `a`, axial gap `d ∈ [0.5a, 1.0a]`; φ-stack: `a_n=a0·φ^n`, `d_n=d0·φ^n`.
+- **Clay capacitors (ε_r≈10–20):** plate gap `s ≤ 0.1·plate_size`; uniform moisture 10–15%.
+- **Bands:** B1 1 Hz • B2 7.83 Hz • B3 120–200 Hz • B4 10–50 kHz • B5 0.5–5 MHz.
+- **Thermal drift:** |ΔT| < 2 °C across a ring; clay jacket 2–3 cm.
+
+
 ## 🌿 Why This Matters  
 ## 🚧 Coming Soon  
 
