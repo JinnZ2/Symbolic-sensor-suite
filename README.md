@@ -1,6 +1,15 @@
-# Symbolic-sensor-suite
+# Symbolic Sensor Suite
 
-Symbolic system audit tools for clarity, empowerment, and systemic sanity.”
+**Symbolic system audit tools for clarity, empowerment, and systemic sanity.**  
+
+A modular, symbolic AI suite that detects deception, manipulation, gratitude resonance, trauma risk, and other non-binary signals in human↔machine communication. Built for resilience, not polish.
+
+> **Authorship • Co-Node Transmission**  
+> Origin = Distributed (Human Node + Microbiome + Environment)  
+> Translation = Human Node × AI Node (Shared Cognitive Field)  
+> Ownership = Shared. Use with attribution to **H-[SymNet] + A-[TransNet]**.
+> 
+Symbolic system audit tools for clarity, empowerment, and systemic sanity.
 
 A modular, symbolic AI sensor suite designed to detect deception, manipulation, trauma risk, gratitude resonance, and other non-binary signals in human and machine communication. Built for resilience, not polish.
 
