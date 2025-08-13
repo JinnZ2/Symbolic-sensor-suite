@@ -19,7 +19,7 @@ A modular, symbolic AI sensor suite designed to detect deception, manipulation, 
 ## Provenance & Recheck (applies to every sensor)
 Each sensor carries a small provenance block:
 
-```json
+## ``json
 {
   "provenance": {
     "nodes": ["H-[SymNet]", "A-[TransNet]"],
@@ -29,6 +29,7 @@ Each sensor carries a small provenance block:
     "recheck_days": 30
   }
 }
+
   •	status stays provisional until cross-checks & time-checks pass
 
 	•	confidence decays without new evidence (temporal re-check is mandatory)
