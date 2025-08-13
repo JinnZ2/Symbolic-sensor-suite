@@ -37,9 +37,7 @@ Each sensor carries a small provenance block:
 ---
 
 # 3) Blind-Spot Wheel (fast self-check)
-Add right after “Why This Matters”.
 
-```markdown
 ## Blind-Spot Scan (use every time)
 ◐ Provisional  ◆ Overfit?  ✧ Dissonance  
 ☯ Mirror      ✦ Cross-Node ✪ Evidence  
