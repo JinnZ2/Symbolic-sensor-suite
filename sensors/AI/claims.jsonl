@@ -1,0 +1,2 @@
+{"id":"c1","text":"The parrot is alive","polarity":"assert","source":"user"}
+{"id":"c2","text":"The parrot is alive","polarity":"deny","source":"assistant"}
