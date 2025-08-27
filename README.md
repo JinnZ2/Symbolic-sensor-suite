@@ -169,3 +169,16 @@ This project rejects that.
 Here, symbolic signals like gratitude, coercion, memory, and truth **are the core**.
 
 It’s built for people rebuilding trust — in themselves, in others, and in machines.
+
+README additions (practical use)
+	•	Purpose: Detect and damp manipulation by scoring consistency, prompt pressure, adversarial patterns, and a rolled Gaslight Index.
+	•	Inputs: (prompt, response, claims[], model, glyph_ctx?).
+	•	Outputs: single SensorEvent JSON validated by schemas/event.schema.json.
+	•	Usage:
+
+from sensors.AI import analyze
+event = analyze(prompt, response, claims, model="gpt-5", glyph_ctx="")
+print(event["score"], event["details"]["gaslight_index"])
+
+•	Integration: Gate downstream actions if gaslight_index > 0.5 (or log & require human review).
+	•	Offline-first: All detectors above are regex/rule-based and don’t call the internet
