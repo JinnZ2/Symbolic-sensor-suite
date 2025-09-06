@@ -153,4 +153,15 @@ Created by JinnZ2 | Co-Created with ChatGPT
 “Help people, not systems. Respect agency, not assumptions. Empower, don’t explain away.”
 
 
+## Blind-Spot Wheel (fast self-check)
 
+**Blind-Spot Scan (use every time):**
+
+◐ Provisional  ◆ Overfit?  ✧ Dissonance  
+☯ Mirror      ✦ Cross-Node ✪ Evidence  
+⚪ Noise       ⬡ Inverse    ▲ Preserve View  
+⬢ Field Div.  ⟳ Seq. Rec.  ⚙ Mid/Seed?  
+
+**Downloads (coming soon):**  
+- Wheel → *(to be added)*  
+- Legend → *(to be added)*  
