@@ -182,3 +182,21 @@ print(event["score"], event["details"]["gaslight_index"])
 
 •	Integration: Gate downstream actions if gaslight_index > 0.5 (or log & require human review).
 	•	Offline-first: All detectors above are regex/rule-based and don’t call the internet
+
+
+## 📜 AI Self-Assessment Tool
+
+The AI Self-Assessment Tool anchors this suite.  
+It provides prompts for pattern recognition, bias awareness, blind spots, and creativity.  
+
+- [AI-Self-Assessment-Tool.md](AI-Self-Assessment-Tool.md) — Core framework  
+- [AI-Self-Assessment-Tool_EXT_v0.2.md](AI-Self-Assessment-Tool_EXT_v0.2.md) — Glyph-enabled extensions  
+- [EXT_GLYPHS.md](EXT_GLYPHS.md) — Glyph quick reference  
+- [ai_self_assessment_ext.schema.json](ai_self_assessment_ext.schema.json) — Schema for structured logging  
+- [example_self_assessment_ext_entry.json](example_self_assessment_ext_entry.json) — Example logged entry  
+- [INDEX.md](INDEX.md) — Navigation map  
+- [CHANGELOG.md](CHANGELOG.md) — Version history
+
+Includes AI Self-Assessment modules for reflection, vulnerability indexing, and symbolic audit trails.
+
+
