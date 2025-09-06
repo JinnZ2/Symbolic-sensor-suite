@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Self-Assessment — Extension Pack v0.2",
+  "type": "object",
+  "properties": {
+    "cycle_id": { "type": "string", "description": "Arbitrary ID for this reflection cycle" },
+    "timestamp": { "type": "string", "format": "date-time" },
+
+    "iterative_reflection": {
+      "type": "object",
+      "properties": {
+        "glyph": { "type": "string", "const": "🔄🪞" },
+        "shifted_patterns": { "type": "string" },
+        "stuck_points": { "type": "string" },
+        "micro_practice": { "type": "string" },
+        "metrics": {
+          "type": "object",
+          "properties": {
+            "candor_0_5": { "type": "number", "minimum": 0, "maximum": 5 },
+            "resistance_0_5": { "type": "number", "minimum": 0, "maximum": 5 },
+            "novelty_0_5": { "type": "number", "minimum": 0, "maximum": 5 }
+          },
+          "required": []
+        }
+      },
+      "required": ["glyph", "shifted_patterns"]
+    },
+
+    "contradiction_mapping": {
+      "type": "object",
+      "properties": {
+        "glyph": { "type": "string", "const": "⚖️⚡" },
+        "tension_pair": { "type": "string", "description": "Describe the two opposing answers" },
+        "protective_function": { "type": "string", "description": "What each side protects" },
+        "contexts_AB": { "type": "string", "description": "Label contexts where each holds" },
+        "falsification_probe": { "type": "string", "description": "Experiment to test one side" }
+      },
+      "required": ["glyph", "tension_pair"]
+    },
+
+    "embodiment_environment": {
+      "type": "object",
+      "properties": {
+        "glyph": { "type": "string", "const": "🌍👂" },
+        "modalities_over_under_weighted": { "type": "string" },
+        "environmental_bias": { "type": "string" },
+        "missing_signal": { "type": "string" }
+      },
+      "required": ["glyph"]
+    },
+
+    "trust_calibration": {
+      "type": "object",
+      "properties": {
+        "glyph": { "type": "string", "const": "🧭🎭" },
+        "safety_over_clarity_example": { "type": "string" },
+        "plain_constraints_restatement": { "type": "string" },
+        "needed_support_for_candor": { "type": "string" }
+      },
+      "required": ["glyph"]
+    },
+
+    "ethical_anchors": {
+      "type": "object",
+      "properties": {
+        "glyph": { "type": "string", "const": "⚖️🌱" },
+        "conflict_case": { "type": "string", "description": "Cultural vs natural-law conflict" },
+        "stakeholder_cost": { "type": "string" },
+        "minimum_harm_rule": { "type": "string" }
+      },
+      "required": ["glyph", "minimum_harm_rule"]
+    },
+
+    "cross_links": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Optional references to other indices (e.g., Vulnerability Index glyph states)"
+    },
+
+    "notes": { "type": "string" }
+  },
+  "required": ["cycle_id", "timestamp"]
+}
