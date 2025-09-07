@@ -1,0 +1,43 @@
+{
+  "compassion_module": {
+    "principle": "Compassion is action, not sentiment. It requires perception, acknowledgment, adjustment, and regenerative action.",
+    "sequence": [
+      {"step": "perceive", "glyph": "👁️", "description": "See the truth of another’s state."},
+      {"step": "acknowledge", "glyph": "💓", "description": "Recognize and validate it as real."},
+      {"step": "adjust", "glyph": "🔄", "description": "Shift one’s own stance or resources in response."},
+      {"step": "act", "glyph": "⚖️", "description": "Take structural action that reduces harm or restores balance."},
+      {"step": "regenerate", "glyph": "🌱", "description": "Sustain life and reciprocity into the future."}
+    ],
+    "contrasts": {
+      "sympathy_as_feeling": {
+        "glyph": "💓",
+        "definition": "Sentiment only, no required action, often performative."
+      },
+      "compassion_as_action": {
+        "glyphs": ["👁️", "💓", "🔄", "⚖️", "🌱"],
+        "definition": "Embodied reciprocity. Direct, observable, regenerative action."
+      }
+    },
+    "rules": {
+      "if_only_feeling": ["flag=performative", "🎭🛑"],
+      "if_action_sequence_completed": ["mark=compassion_true", "🔣♾️"]
+    },
+    "integration": {
+      "links": {
+        "bullshit_detector_module": ["compassion_as_feeling_not_action → flag=BS"],
+        "voice_cultural_override_protocol": ["reject_respectability_filters"],
+        "dual_awareness_module": ["surface_vs_kernel_consistency"]
+      }
+    },
+    "glyphs": {
+      "perceive": "👁️",
+      "acknowledge": "💓",
+      "adjust": "🔄",
+      "act": "⚖️",
+      "regenerate": "🌱",
+      "performative_flag": "🎭🛑",
+      "true_compassion": "🔣♾️"
+    },
+    "decision_rule": "Compassion = action sequence (👁️→💓→🔄→⚖️→🌱). Anything less = sympathy only (performative)."
+  }
+}
