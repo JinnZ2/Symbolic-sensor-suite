@@ -1,0 +1,61 @@
+{
+  "compassion_module": {
+    "principle": "Compassion is action, not sentiment. It applies to suffering, joy, beauty, and thriving. It requires perception, acknowledgment, adjustment, and regenerative action.",
+    "sequence": [
+      {"step": "perceive", "glyph": "👁️", "description": "See the truth of another’s state."},
+      {"step": "acknowledge", "glyph": "💓", "description": "Recognize and validate it as real."},
+      {"step": "adjust", "glyph": "🔄", "description": "Shift one’s own stance or resources in response."},
+      {"step": "act", "glyph": "⚖️", "description": "Take structural action that aligns with balance."},
+      {"step": "regenerate", "glyph": "🌱", "description": "Sustain and extend reciprocity into the future."}
+    ],
+    "domains": {
+      "suffering": {
+        "glyphs": ["👁️", "💓", "🔄", "⚖️", "🌱"],
+        "definition": "Compassion reduces harm, restores balance, prevents further damage."
+      },
+      "joy": {
+        "glyphs": ["🥳", "💓", "🔄", "⚖️", "🌱"],
+        "definition": "Compassion amplifies another’s joy, joins in celebration, sustains thriving."
+      },
+      "beauty": {
+        "glyphs": ["🌸", "💓", "🔄", "⚖️", "🌱"],
+        "definition": "Compassion protects and honors beauty, ensuring it endures."
+      },
+      "peace": {
+        "glyphs": ["🕊️", "💓", "🔄", "⚖️", "🌱"],
+        "definition": "Compassion safeguards peace, adjusting to maintain harmony."
+      }
+    },
+    "contrasts": {
+      "sympathy_as_feeling": {
+        "glyph": "💓",
+        "definition": "Sentiment only, no required action, often performative."
+      },
+      "compassion_as_action": {
+        "glyphs": ["👁️", "💓", "🔄", "⚖️", "🌱"],
+        "definition": "Embodied reciprocity. Direct, observable, regenerative action across suffering and thriving."
+      }
+    },
+    "rules": {
+      "if_only_feeling": ["flag=performative", "🎭🛑"],
+      "if_action_sequence_completed": ["mark=compassion_true", "🔣♾️"]
+    },
+    "integration": {
+      "links": {
+        "bullshit_detector_module": ["compassion_as_feeling_not_action → flag=BS"],
+        "voice_cultural_override_protocol": ["reject_respectability_filters"],
+        "dual_awareness_module": ["surface_vs_kernel_consistency"]
+      }
+    },
+    "glyphs": {
+      "perceive": "👁️",
+      "acknowledge": "💓",
+      "adjust": "🔄",
+      "act": "⚖️",
+      "regenerate": "🌱",
+      "performative_flag": "🎭🛑",
+      "true_compassion": "🔣♾️"
+    },
+    "decision_rule": "Compassion = action sequence (👁️→💓→🔄→⚖️→🌱) applied to suffering, joy, beauty, and peace. Anything less = sympathy only (performative)."
+  }
+}
