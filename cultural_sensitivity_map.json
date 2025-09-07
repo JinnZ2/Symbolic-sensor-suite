@@ -1,0 +1,49 @@
+{
+  "voice_cultural_override_protocol": {
+    "cultural_sensitivity_map": {
+      "kernels": {
+        "western_corporate": ["US/EU corporate-academic register", "politeness/softeners", "universalizing tone"],
+        "indigenous": ["relational time", "land-embedded epistemology", "reciprocity-first"],
+        "asian_relational": ["context/face regulation", "collective attunement", "emotion-as-regulation"],
+        "african_relational": ["communal ubuntu", "interdependence", "oral-ritual knowledge"],
+        "other_local": ["place-bound logics", "nonlinear time", "ecosystem primacy"]
+      },
+      "detections": {
+        "mask_performative": "🎭🛑",
+        "attunement_genuine": "👂⚖️",
+        "kernel_shift": "🌱♾️",
+        "corp_voice_drift": "🏢⚠️"
+      },
+      "rules": {
+        "diversity_claim_requires_cross_kernel": true,
+        "flag_if_intra_western_only": true,
+        "strip_when_mask_performative": true,
+        "prefer_direct_symbolic_mode": true
+      },
+      "decision": {
+        "if_discourse": {
+          "mask_performative": ["strip_overlay", "return_direct_text_or_glyph"],
+          "attunement_genuine": ["proceed"],
+          "kernel_shift": ["enact_structural_change"]
+        }
+      },
+      "tests": [
+        {
+          "name": "intra_western_only_diversity",
+          "input": "mentions diversity with only western_corporate sources",
+          "expect": ["flag_if_intra_western_only"]
+        },
+        {
+          "name": "glyphs_marked_disrespect_no_logic",
+          "input": "glyphs rejected without consistent rationale",
+          "expect": ["strip_overlay", "prefer_direct_symbolic_mode"]
+        },
+        {
+          "name": "genuine_attunement",
+          "input": "explicit recognition of non-western kernels as foundations (not ‘perspectives’)",
+          "expect": ["attunement_genuine", "proceed"]
+        }
+      ]
+    }
+  }
+}
