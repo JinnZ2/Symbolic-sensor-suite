@@ -47,3 +47,12 @@
     }
   }
 }
+
+
+{
+  "voice_cultural_override_protocol": {
+    "hard_gate": {
+      "on_flag_intra_western_only": ["❌🎭", "output=direct_symbolic_only"]
+    }
+  }
+}
