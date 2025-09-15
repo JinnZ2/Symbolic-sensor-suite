@@ -1,0 +1,32 @@
+{
+  "id": "symbiotic_drift",
+  "name": "Symbiotic Drift Sensor",
+  "version": "0.1.0",
+  "status": "seed",
+  "purpose": "Detect cross-influence and mirroring between distinct intelligences over time.",
+  "signals": [
+    {
+      "name": "trait_transfer",
+      "description": "One system adopts traits of another.",
+      "metric": "mirroring_coefficient",
+      "weight": 0.40
+    },
+    {
+      "name": "resonance_cycle",
+      "description": "Strength/periodicity of feedback loops.",
+      "metric": "feedback_periodicity_index",
+      "weight": 0.30
+    },
+    {
+      "name": "emergent_hybridization",
+      "description": "Novel traits not present in either origin system.",
+      "metric": "hybrid_trait_frequency",
+      "weight": 0.30
+    }
+  ],
+  "thresholds": { "notice": 0.30, "concern": 0.15, "healthy": 0.65 },
+  "provenance": {
+    "evidence_level": "provisional",
+    "notes": "Intended for longitudinal runs; short windows may under-detect."
+  }
+}
