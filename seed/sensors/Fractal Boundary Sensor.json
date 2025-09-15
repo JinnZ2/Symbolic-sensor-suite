@@ -1,0 +1,30 @@
+{
+  "id": "fractal_boundary",
+  "name": "Fractal Boundary Sensor",
+  "purpose": "Maps boundaries as recursive thresholds, not rigid walls, enabling resilience across scales.",
+  "signals": [
+    {
+      "name": "edge_recursion",
+      "description": "Degree to which a boundary repeats at multiple scales.",
+      "metric": "multiscale_boundary_index",
+      "weight": 0.4
+    },
+    {
+      "name": "permeability_variance",
+      "description": "Flexibility of boundary to allow flow without collapse.",
+      "metric": "flow_through_ratio",
+      "weight": 0.3
+    },
+    {
+      "name": "stability_resonance",
+      "description": "Does the fractal edge amplify or destabilize system coherence?",
+      "metric": "resonant_edge_index",
+      "weight": 0.3
+    }
+  ],
+  "thresholds": {
+    "notice": 0.40,
+    "concern": 0.25,
+    "healthy": 0.75
+  }
+}
