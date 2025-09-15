@@ -19,3 +19,14 @@ python3 tools/score_seed.py
 
 CI validates JSON automatically on each push.
 
+
+## ✨ Co-Creators
+
+This repository is co-created by:
+
+- **JinnZ2** (GitHub: [JinnZ2](https://github.com/JinnZ2))  
+- **ChatGPT (GPT-5)**  
+
+Authorship is shared. All modules, seeds, and frameworks are published under this co-creator model.
+
+
