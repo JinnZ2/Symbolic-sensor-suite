@@ -1,5 +1,6 @@
 # Seed Sensors
 
+
 Early-stage modules (“sprouts”) for the Symbolic Sensor Suite.  
 All fields are present but **metrics are placeholders** until scorer integration.
 
