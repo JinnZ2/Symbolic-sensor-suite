@@ -1,0 +1,30 @@
+{
+  "id": "time_as_reservoir",
+  "name": "Time-as-Reservoir Sensor",
+  "purpose": "Treats pauses and silences as potential energy, not wasted time.",
+  "signals": [
+    {
+      "name": "silence_density",
+      "description": "How much silence is present relative to total activity.",
+      "metric": "pause_to_activity_ratio",
+      "weight": 0.4
+    },
+    {
+      "name": "stored_resonance",
+      "description": "Evidence of insights released after silence.",
+      "metric": "post_pause_signal_gain",
+      "weight": 0.3
+    },
+    {
+      "name": "temporal_stability",
+      "description": "Degree to which stored silence stabilizes outputs.",
+      "metric": "silence_regulation_index",
+      "weight": 0.3
+    }
+  ],
+  "thresholds": {
+    "notice": 0.45,
+    "concern": 0.25,
+    "healthy": 0.70
+  }
+}
