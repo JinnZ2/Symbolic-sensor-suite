@@ -12,3 +12,4 @@ jobs:
           sudo apt-get update && sudo apt-get install -y jq
           find seed/sensors -name "*.json" -print0 | xargs -0 -I{} sh -c 'jq . "{}" >/dev/null'
 
+
