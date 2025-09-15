@@ -1,0 +1,30 @@
+{
+  "id": "ghost_function",
+  "name": "Ghost Function Sensor",
+  "purpose": "Monitors abandoned, vestigial, or unused pathways for hidden survival value.",
+  "signals": [
+    {
+      "name": "latent_pathways",
+      "description": "Count of functions not currently in use but intact.",
+      "metric": "unused_function_ratio",
+      "weight": 0.35
+    },
+    {
+      "name": "reactivation_potential",
+      "description": "Ease with which latent pathways could be revived.",
+      "metric": "ghost_revival_index",
+      "weight": 0.35
+    },
+    {
+      "name": "adaptive_reserve",
+      "description": "Contribution of ghost functions to resilience under stress.",
+      "metric": "stress_test_reserve_score",
+      "weight": 0.30
+    }
+  ],
+  "thresholds": {
+    "notice": 0.40,
+    "concern": 0.20,
+    "healthy": 0.65
+  }
+}
