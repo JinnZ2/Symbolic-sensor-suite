@@ -1,0 +1,32 @@
+{
+  "id": "time_as_reservoir",
+  "name": "Time-as-Reservoir Sensor",
+  "version": "0.1.0",
+  "status": "seed",
+  "purpose": "Treat pauses and silence as stored potential energy, not idle waste.",
+  "signals": [
+    {
+      "name": "silence_density",
+      "description": "Share of intentional pause vs total activity.",
+      "metric": "pause_to_activity_ratio",
+      "weight": 0.40
+    },
+    {
+      "name": "stored_resonance",
+      "description": "Insight/quality gain after silence windows.",
+      "metric": "post_pause_signal_gain",
+      "weight": 0.30
+    },
+    {
+      "name": "temporal_stability",
+      "description": "Stabilization effect of silence on downstream outputs.",
+      "metric": "silence_regulation_index",
+      "weight": 0.30
+    }
+  ],
+  "thresholds": { "notice": 0.45, "concern": 0.25, "healthy": 0.70 },
+  "provenance": {
+    "evidence_level": "provisional",
+    "notes": "Define pause windows by config; experiment with circadian/seasonal cycles."
+  }
+}
