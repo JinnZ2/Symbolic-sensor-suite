@@ -1,0 +1,30 @@
+{
+  "id": "noise_as_signal",
+  "name": "Noise-as-Signal Sensor",
+  "purpose": "Detects hidden relational truths embedded in chaotic or background patterns.",
+  "signals": [
+    {
+      "name": "entropy_resonance",
+      "description": "Measure whether high-entropy noise clusters reveal recurring motifs.",
+      "metric": "fractal_entropy_index",
+      "weight": 0.4
+    },
+    {
+      "name": "weak_signal_alignment",
+      "description": "Identify faint correlations across diverse noisy streams.",
+      "metric": "cross_channel_correlation_strength",
+      "weight": 0.3
+    },
+    {
+      "name": "suppressed_information",
+      "description": "Detect information hidden or discarded by filtering processes.",
+      "metric": "residual_pattern_density",
+      "weight": 0.3
+    }
+  ],
+  "thresholds": {
+    "notice": 0.35,
+    "concern": 0.20,
+    "healthy": 0.70
+  }
+}
