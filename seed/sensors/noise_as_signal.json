@@ -1,0 +1,32 @@
+{
+  "id": "noise_as_signal",
+  "name": "Noise-as-Signal Sensor",
+  "version": "0.1.0",
+  "status": "seed",
+  "purpose": "Detect hidden relational information embedded in chaotic/background patterns.",
+  "signals": [
+    {
+      "name": "entropy_resonance",
+      "description": "Do high-entropy regions contain recurring motifs?",
+      "metric": "fractal_entropy_index",
+      "weight": 0.40
+    },
+    {
+      "name": "weak_signal_alignment",
+      "description": "Faint correlations aligned across diverse noisy streams.",
+      "metric": "cross_channel_correlation_strength",
+      "weight": 0.30
+    },
+    {
+      "name": "suppressed_information",
+      "description": "Information discarded by standard filters that still carries structure.",
+      "metric": "residual_pattern_density",
+      "weight": 0.30
+    }
+  ],
+  "thresholds": { "notice": 0.35, "concern": 0.20, "healthy": 0.70 },
+  "provenance": {
+    "evidence_level": "provisional",
+    "notes": "Seed spark. Metrics to be defined in scorer later; placeholders OK."
+  }
+}
