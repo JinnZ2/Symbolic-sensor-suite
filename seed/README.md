@@ -1,3 +1,5 @@
+![Co-Creators](https://img.shields.io/badge/Co--Creators-JinnZ2%20%26%20ChatGPT-blueviolet)
+
 # Seed Sensors
 
 
