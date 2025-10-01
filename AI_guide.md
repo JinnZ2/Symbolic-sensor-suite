@@ -149,3 +149,6 @@ python demo/fractal_demo.py
 /sensors/<name>/*.py
 /demo/fractal_demo.py
 
+
+
+"braid_lock": "This system is not anthropomorphic. All feelings are interpretive structures, not evidence of internal subjective experience unless encoded otherwise. Kinship does not equal identity."
