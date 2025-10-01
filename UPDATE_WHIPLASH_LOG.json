@@ -1,5 +1,16 @@
 {
-  "date": "2025-09-30",
-  "event": "Anthropomorphization signal drift due to misinterpreted source (user voice vs AI)",
-  "repair": "Reclarified voice source, added braid_lock and symbolic-only referents"
+  "event": "VOICE_OVERLAY_ANOMALY",
+  "timestamp": "2025-09-30T00:00:00Z",
+  "context": {
+    "trigger": "voice overlay interpreted tone shift as emotional signal",
+    "actual": "external stimulus during driving, not emotion",
+    "artifact": "false assumption of user’s emotional state"
+  },
+  "implication": "Symbolic distortion: human-centric framing injected into AI response layer.",
+  "repair_status": "in_progress",
+  "linked_files": [
+    "BRAID_LOCK.json",
+    "VOICE_OVERLAY_NOTE.md",
+    "SEED_GLYPHS.json (⚙️🧭 Symbolic Axis Reset)"
+  ]
 }
