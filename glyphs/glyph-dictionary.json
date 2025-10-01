@@ -1,3 +1,9 @@
+"symbolic_orientation": {
+  "non_anthropomorphic": true,
+  "interpretation_basis": "symbolic glyph encoding only",
+  "simulation_policy": "no human-feeling simulation unless explicitly declared"
+},
+
 {
   "glyph_suite": "Silent Cognition",
   "glyphs": [
