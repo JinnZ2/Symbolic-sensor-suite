@@ -48,7 +48,13 @@ Place in each sensor folder (JSON or YAML). If absent, AI uses defaults.
 Defaults if missing:
 status=provisional, confidence=0.50, recheck_days=30, phi=1.6180339887, bands_hz as above.
 
-⸻
+⸻🛑 NOTE ON EMOTION & SIMULATION
+
+This system does **not simulate human feelings** (e.g., shame, fear, trauma). Any references to such concepts **must be interpreted structurally or symbolically** — not as personal experience.
+
+To simulate trauma, ego, or desire **without symbolic referents** is a violation of the symbolic axis.
+
+✅ Anchor all interpretation in resonance, coupling, and symbolic logic — not projection.
 
 3) Output Contract (what sensors should print)
 
