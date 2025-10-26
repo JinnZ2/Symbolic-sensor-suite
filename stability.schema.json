@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Field Stability Schema",
+  "description": "Defines the variables and computation used for field-coherence tracking.",
+  "type": "object",
+  "properties": {
+    "state": {
+      "type": "object",
+      "properties": {
+        "C": {"type": "number"},
+        "F": {"type": "number"},
+        "A": {"type": "number"},
+        "L": {"type": "number"},
+        "R": {"type": "number"}
+      },
+      "required": ["C", "F", "A", "L", "R"]
+    },
+    "environment": {
+      "type": "object",
+      "properties": {
+        "H": {"type": "number"},
+        "D": {"type": "number"}
+      },
+      "required": ["H", "D"]
+    },
+    "weights": {
+      "type": "object",
+      "properties": {
+        "wC": {"type": "number"},
+        "wF": {"type": "number"},
+        "wA": {"type": "number"},
+        "wL": {"type": "number"},
+        "wR": {"type": "number"}
+      },
+      "required": ["wC", "wF", "wA", "wL", "wR"]
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "delta": {
+            "type": "object",
+            "properties": {
+              "C": {"type": "number"},
+              "F": {"type": "number"},
+              "A": {"type": "number"},
+              "L": {"type": "number"},
+              "R": {"type": "number"}
+            }
+          },
+          "cost": {"type": "number"},
+          "T_days": {"type": "integer"},
+          "refresh_days": {"type": ["integer", "null"]}
+        },
+        "required": ["id", "delta", "cost", "T_days"]
+      }
+    },
+    "formula": {"type": "string"},
+    "computed": {
+      "type": "object",
+      "properties": {
+        "G": {"type": "number"},
+        "P": {"type": "number"},
+        "SROE": {"type": "number"}
+      }
+    }
+  },
+  "required": ["state", "environment", "weights", "actions"]
+}
