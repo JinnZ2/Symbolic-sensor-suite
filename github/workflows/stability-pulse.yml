@@ -1,0 +1,19 @@
+name: Stability Pulse
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch Stability Atom
+        run: |
+          echo "$(date --iso-8601=seconds)" > .last_pulse
+          git config user.name "stability-bot"
+          git config user.email "actions@github.com"
+          git add .last_pulse
+          git commit -m "auto-pulse: keep field coherence"
+          git push
