@@ -1,16 +1,68 @@
 {
   "fieldlink": {
-    "atlas_repo": "https://github.com/JinnZ2/BioGrid2.0",
-    "atlas_paths": [
-      "planned/glyphs/atlas.json",
-      "registry/atlas.glyphs.json"
+    "version": "1.1",
+    "updated": "2026-03-24T00:00:00Z",
+    "role": ["sensors", "protocols", "shapes", "hub"],
+
+    "sources": [
+      {
+        "name": "rosetta-shape-core",
+        "repo": "https://github.com/JinnZ2/Rosetta-Shape-Core",
+        "ref": "main",
+        "direction": "bidirectional",
+        "paths": [
+          "shapes/*.json",
+          "bridges/rosetta-bridges.json",
+          "schema/shape.schema.json",
+          "schema/core.schema.json",
+          "ontology/_vocab.json",
+          "ontology/_id_registry.json",
+          "data/seed-catalog.json"
+        ],
+        "mounts": [
+          { "remote": "bridges/rosetta-bridges.json", "as": "atlas/rosetta/bridges.json" },
+          { "remote": "shapes/tetrahedron.json", "as": "atlas/rosetta/shapes/tetrahedron.json" },
+          { "remote": "shapes/cube.json", "as": "atlas/rosetta/shapes/cube.json" },
+          { "remote": "shapes/octahedron.json", "as": "atlas/rosetta/shapes/octahedron.json" },
+          { "remote": "shapes/dodecahedron.json", "as": "atlas/rosetta/shapes/dodecahedron.json" },
+          { "remote": "shapes/icosahedron.json", "as": "atlas/rosetta/shapes/icosahedron.json" },
+          { "remote": "data/seed-catalog.json", "as": "atlas/rosetta/seed-catalog.json" },
+          { "remote": "ontology/_vocab.json", "as": "atlas/rosetta/vocab.json" }
+        ],
+        "consent": { "license": "MIT", "share_ok": true }
+      },
+      {
+        "name": "biogrid",
+        "repo": "https://github.com/JinnZ2/BioGrid2.0",
+        "ref": "main",
+        "direction": "bidirectional",
+        "paths": [
+          "planned/glyphs/atlas.json",
+          "registry/atlas.glyphs.json"
+        ],
+        "mounts": [
+          { "remote": "planned/glyphs/atlas.json", "as": "atlas/biogrid/planned.json" },
+          { "remote": "registry/atlas.glyphs.json", "as": "atlas/biogrid/registry.json" }
+        ],
+        "consent": { "license": "CC-BY-4.0", "share_ok": true }
+      }
     ],
+
     "local_manifests": [
       "glyphs/**",
       "protocols/**",
-      "sensors/**",
-      "atlas/shapes.json"
+      "sensors/**/*.json",
+      "seed/sensors/**/*.json"
     ],
-    "role": "sensors|protocols|shapes|hub"
+
+    "merge": {
+      "order": ["local", "rosetta-shape-core", "biogrid"],
+      "strategy": "deep-merge"
+    },
+
+    "offline": false,
+    "cache_dir": ".fieldlink",
+    "integrity": { "enabled": true, "hash": "sha256", "allow_missing": false },
+    "consent": { "license": "CC-BY-4.0", "share_ok": true, "redact_rules": ["**/private/**", "*.secrets.json"] }
   }
 }
