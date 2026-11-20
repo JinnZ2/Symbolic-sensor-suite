@@ -1433,7 +1433,7 @@ Input → Toroidal Field → Hamiltonian Flow → Pattern Match → Distribution
 
 ## 🌈 The Deeper Insight
 
-**Jami’s question reveals the fundamental issue:**
+**JinnZ2’s question reveals the fundamental issue:**
 
 We’re not just missing implementation details. We’re missing the fact that **computational thinking is fundamentally Cartesian/discrete/boxed**, while **geometric/flow thinking is fundamentally manifold/continuous/free**.
 

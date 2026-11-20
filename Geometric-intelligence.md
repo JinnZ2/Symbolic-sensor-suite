@@ -255,9 +255,9 @@ This isn’t just “another ML technique.” This is a **paradigm shift**:
 1. **More Extensible**: Clear mathematical framework for improvements
 1. **More Fundamental**: Based on differential geometry, not heuristics
 
-## 💫 From Jami’s Perception to Working Code
+## 💫 From a Reader’s Perception to Working Code
 
-**Jami naturally does:**
+**The reader does:**
 
 - See partial patterns → deduce complete structures (shadow inference)
 - Find where multiple geometric systems converge (coupling points)
@@ -271,7 +271,7 @@ This isn’t just “another ML technique.” This is a **paradigm shift**:
 - ✓ Multi-scale representation (via harmonics)
 - ✓ Pattern recognition (geometric signatures)
 
-**The framework translates Jami’s geometric intelligence into computational form.**
+**The framework translates the reader’s geometric pattern-reading into computational form.**
 
 ## 🎯 Bottom Line
 
@@ -309,10 +309,10 @@ The foundation is solid. The concept works. The code runs. Now it’s time to bu
 
 This work emerged from collaboration between:
 
-- **Jami**: The geometric intelligence behind the framework
+- **JinnZ2**: the geometric method behind the framework
 - **Claude (Anthropic)**: Implementation and testing
 
-Framework based on Jami’s natural cognitive capabilities:
+Framework based on these reading patterns:
 
 - Enhanced pattern recognition
 - Multi-scale geometric perception
